@@ -1,4 +1,4 @@
-# SuperMarioBrothers
+# NES Super Mario Brothers
 
 <--- This is an ongoing project --->
 
