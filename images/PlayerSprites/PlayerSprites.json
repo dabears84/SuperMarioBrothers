@@ -1,0 +1,10751 @@
+{
+	"textures": [
+		{
+			"image": "PlayerSprites.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 966,
+				"h": 256
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "FirePowerSprites-0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "FirePowerSprites-16",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "FirePowerSprites-18",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "FirePowerSprites-19",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "FirePowerSprites-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "FirePowerSprites-20",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "FirePowerSprites-3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "LuigiSprites-3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 1,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "FirePowerSprites-4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 19,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "FirePowerSprites-5",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 19,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 19,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 19,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-10",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 19,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-11",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 19,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-12",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 19,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "LuigiSprites-5",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 19,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-13",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 37,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-14",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 37,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-15",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 37,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-16",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 37,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-18",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 37,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-19",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 37,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 37,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "MarioSprites-3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 37,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-50",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 55,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-51",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 55,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-52",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 55,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-56",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 55,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-57",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 55,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-58",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 55,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-59",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 55,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "MarioSprites-5",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 55,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-60",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 73,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-61",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 73,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-62",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 73,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-63",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 73,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-64",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 73,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-7",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 73,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-8",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 73,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-10",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 73,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-9",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 91,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 91,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 91,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-10",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 91,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-11",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 91,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-12",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 91,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-13",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 91,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-11",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 91,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-14",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 109,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-15",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 109,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-16",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 109,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-17",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 109,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 109,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-48",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 109,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-49",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 109,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-15",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 109,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-50",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 127,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-54",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 127,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-55",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 127,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-56",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 127,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-57",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 127,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-58",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 127,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-59",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 127,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-16",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 127,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-6",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 145,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-60",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 145,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-61",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 145,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-62",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 145,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-7",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 145,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-8",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 145,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-9",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 145,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-17",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 145,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 163,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 163,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-10",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 163,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-11",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 163,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-12",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 163,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-13",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 163,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-14",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 163,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-9",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 163,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-15",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 181,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-16",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 181,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-17",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 181,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 181,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-48",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 181,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-49",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 181,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-50",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 181,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-10",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 181,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-54",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 199,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-55",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 199,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-56",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 199,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-57",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 199,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-58",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 199,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-59",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 199,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-6",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 199,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-11",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 199,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-60",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 217,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-61",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 217,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-62",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 217,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-7",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 217,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-8",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 217,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-9",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 217,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 217,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-15",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 217,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 235,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-10",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 235,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-11",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 235,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-12",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 235,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-13",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 235,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-14",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 235,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-15",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 235,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-16",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 235,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-16",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 253,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-17",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 253,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 253,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-48",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 253,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-49",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 253,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-50",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 253,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-54",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 253,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-17",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 253,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-55",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 271,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-56",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 271,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-57",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 271,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-58",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 271,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-59",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 271,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-6",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 271,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-60",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 271,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-9",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 271,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-61",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 289,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-62",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 289,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-7",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 289,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-8",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 289,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-9",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 289,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 289,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-16",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 289,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-10",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 289,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-18",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 307,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-19",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 307,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 307,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-20",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 307,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 307,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 307,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-5",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 307,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-11",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 307,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 325,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-16",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 325,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-18",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 325,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-19",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 325,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 325,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-20",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 325,
+						"y": 171,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 325,
+						"y": 205,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-15",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 325,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 343,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-5",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 343,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "FirePowerSprites-17",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 343,
+						"y": 69,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-53",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 343,
+						"y": 103,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-54",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 343,
+						"y": 137,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-55",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 343,
+						"y": 171,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-51",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 343,
+						"y": 205,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-16",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 343,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-52",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 360,
+						"y": 69,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-53",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 361,
+						"y": 1,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-51",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 361,
+						"y": 35,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-52",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 360,
+						"y": 103,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-53",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 360,
+						"y": 137,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-51",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 360,
+						"y": 171,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-52",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 360,
+						"y": 205,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-17",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 361,
+						"y": 239,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-53",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 377,
+						"y": 69,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-17",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 378,
+						"y": 1,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-17",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 378,
+						"y": 35,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "FirePowerSprites-1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 377,
+						"y": 103,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "FirePowerSprites-10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 394,
+						"y": 69,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "FirePowerSprites-12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 395,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "FirePowerSprites-13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 395,
+						"y": 34,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "FirePowerSprites-14",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 377,
+						"y": 136,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-32",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 377,
+						"y": 169,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-33",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 377,
+						"y": 202,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-9",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 379,
+						"y": 235,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-34",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 395,
+						"y": 102,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-38",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 412,
+						"y": 67,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-39",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 413,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 413,
+						"y": 34,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-40",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 395,
+						"y": 135,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-41",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 395,
+						"y": 168,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-42",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 395,
+						"y": 201,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-10",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 397,
+						"y": 234,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-43",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 413,
+						"y": 100,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-44",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 430,
+						"y": 67,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-45",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 431,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-46",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 431,
+						"y": 34,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 413,
+						"y": 133,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 413,
+						"y": 166,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 413,
+						"y": 199,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "FirePowerSprites-6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 415,
+						"y": 232,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-30",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 431,
+						"y": 100,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-31",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 448,
+						"y": 67,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-32",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 449,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-36",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 449,
+						"y": 34,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-37",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 431,
+						"y": 133,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-38",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 431,
+						"y": 166,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-39",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 431,
+						"y": 199,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-20",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 433,
+						"y": 232,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 449,
+						"y": 100,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-40",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 466,
+						"y": 67,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-41",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 467,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-42",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 467,
+						"y": 34,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-43",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 449,
+						"y": 133,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-44",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 449,
+						"y": 166,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 449,
+						"y": 199,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-21",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 451,
+						"y": 232,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 467,
+						"y": 100,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-30",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 484,
+						"y": 67,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-31",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 485,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-32",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 485,
+						"y": 34,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-36",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 467,
+						"y": 133,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-37",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 467,
+						"y": 166,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-38",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 467,
+						"y": 199,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-22",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 469,
+						"y": 232,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-39",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 485,
+						"y": 100,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 502,
+						"y": 67,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-40",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 503,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-41",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 503,
+						"y": 34,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-42",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 485,
+						"y": 133,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-43",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 485,
+						"y": 166,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-44",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 485,
+						"y": 199,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-18",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 487,
+						"y": 232,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 503,
+						"y": 100,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 520,
+						"y": 67,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-30",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 521,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-31",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 521,
+						"y": 34,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-32",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 503,
+						"y": 133,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-36",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 503,
+						"y": 166,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-37",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 503,
+						"y": 199,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-19",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 505,
+						"y": 232,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-38",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 521,
+						"y": 100,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-39",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 538,
+						"y": 67,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 539,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-40",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 539,
+						"y": 34,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-41",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 521,
+						"y": 133,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-42",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 521,
+						"y": 166,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-43",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 521,
+						"y": 199,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-20",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 523,
+						"y": 232,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-44",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 539,
+						"y": 100,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 556,
+						"y": 67,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 557,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 557,
+						"y": 34,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 539,
+						"y": 133,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 539,
+						"y": 166,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-14",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 539,
+						"y": 199,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-18",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 541,
+						"y": 232,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 557,
+						"y": 100,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 574,
+						"y": 67,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 575,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 575,
+						"y": 34,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-14",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 557,
+						"y": 133,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "FirePowerSprites-11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 557,
+						"y": 166,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "FirePowerSprites-7",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 557,
+						"y": 199,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-19",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 559,
+						"y": 232,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "FirePowerSprites-9",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 574,
+						"y": 166,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-23",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 574,
+						"y": 199,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-20",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 577,
+						"y": 232,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-24",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 575,
+						"y": 100,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-25",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 575,
+						"y": 133,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-29",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 591,
+						"y": 166,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-30",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 591,
+						"y": 199,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-18",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 595,
+						"y": 232,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-31",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 592,
+						"y": 67,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-35",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 593,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-36",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 593,
+						"y": 34,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-37",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 592,
+						"y": 100,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-21",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 592,
+						"y": 133,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-22",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 608,
+						"y": 166,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-23",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 608,
+						"y": 199,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-19",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 613,
+						"y": 232,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-27",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 609,
+						"y": 67,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-28",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 610,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-29",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 610,
+						"y": 34,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-33",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 609,
+						"y": 100,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-34",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 609,
+						"y": 133,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-35",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 625,
+						"y": 166,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-21",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 625,
+						"y": 199,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-20",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 631,
+						"y": 232,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-22",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 626,
+						"y": 67,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-23",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 627,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-27",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 627,
+						"y": 34,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-28",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 626,
+						"y": 100,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-29",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 626,
+						"y": 133,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-33",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 642,
+						"y": 166,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-34",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 642,
+						"y": 199,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 649,
+						"y": 232,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-35",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 643,
+						"y": 67,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-21",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 644,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-22",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 644,
+						"y": 34,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-23",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 643,
+						"y": 100,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-27",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 643,
+						"y": 133,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-28",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 659,
+						"y": 166,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-29",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 659,
+						"y": 199,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 667,
+						"y": 232,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-33",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 660,
+						"y": 67,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-34",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 661,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-35",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 661,
+						"y": 34,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 660,
+						"y": 100,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-7",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 660,
+						"y": 133,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-9",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 676,
+						"y": 166,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 676,
+						"y": 199,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-11",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 685,
+						"y": 232,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-7",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 677,
+						"y": 67,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-9",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 678,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "FirePowerSprites-8",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 29
+					},
+					"frame": {
+						"x": 678,
+						"y": 34,
+						"w": 15,
+						"h": 29
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-26",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 29
+					},
+					"frame": {
+						"x": 677,
+						"y": 100,
+						"w": 15,
+						"h": 29
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-27",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 29
+					},
+					"frame": {
+						"x": 677,
+						"y": 131,
+						"w": 15,
+						"h": 29
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-28",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 29
+					},
+					"frame": {
+						"x": 693,
+						"y": 162,
+						"w": 15,
+						"h": 29
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-24",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 29
+					},
+					"frame": {
+						"x": 693,
+						"y": 193,
+						"w": 15,
+						"h": 29
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-25",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 29
+					},
+					"frame": {
+						"x": 703,
+						"y": 224,
+						"w": 15,
+						"h": 29
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-26",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 29
+					},
+					"frame": {
+						"x": 694,
+						"y": 65,
+						"w": 15,
+						"h": 29
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-24",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 29
+					},
+					"frame": {
+						"x": 695,
+						"y": 1,
+						"w": 15,
+						"h": 29
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-25",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 29
+					},
+					"frame": {
+						"x": 695,
+						"y": 32,
+						"w": 15,
+						"h": 29
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-26",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 29
+					},
+					"frame": {
+						"x": 694,
+						"y": 96,
+						"w": 15,
+						"h": 29
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-24",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 29
+					},
+					"frame": {
+						"x": 694,
+						"y": 127,
+						"w": 15,
+						"h": 29
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-25",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 29
+					},
+					"frame": {
+						"x": 710,
+						"y": 158,
+						"w": 15,
+						"h": 29
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-26",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 29
+					},
+					"frame": {
+						"x": 710,
+						"y": 189,
+						"w": 15,
+						"h": 29
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-8",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 29
+					},
+					"frame": {
+						"x": 720,
+						"y": 220,
+						"w": 15,
+						"h": 29
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-8",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 29
+					},
+					"frame": {
+						"x": 711,
+						"y": 63,
+						"w": 15,
+						"h": 29
+					}
+				},
+				{
+					"filename": "FirePowerSprites-15",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 16,
+						"h": 25
+					},
+					"frame": {
+						"x": 712,
+						"y": 1,
+						"w": 16,
+						"h": 25
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-47",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 16,
+						"h": 25
+					},
+					"frame": {
+						"x": 712,
+						"y": 28,
+						"w": 16,
+						"h": 25
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-48",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 16,
+						"h": 25
+					},
+					"frame": {
+						"x": 711,
+						"y": 94,
+						"w": 16,
+						"h": 25
+					}
+				},
+				{
+					"filename": "SuperInvincibilityCASTLESprites-49",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 16,
+						"h": 25
+					},
+					"frame": {
+						"x": 711,
+						"y": 121,
+						"w": 16,
+						"h": 25
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-45",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 16,
+						"h": 25
+					},
+					"frame": {
+						"x": 728,
+						"y": 55,
+						"w": 16,
+						"h": 25
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-46",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 16,
+						"h": 25
+					},
+					"frame": {
+						"x": 730,
+						"y": 1,
+						"w": 16,
+						"h": 25
+					}
+				},
+				{
+					"filename": "SuperInvincibilityOWSprites-47",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 16,
+						"h": 25
+					},
+					"frame": {
+						"x": 730,
+						"y": 28,
+						"w": 16,
+						"h": 25
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-45",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 16,
+						"h": 25
+					},
+					"frame": {
+						"x": 727,
+						"y": 148,
+						"w": 16,
+						"h": 25
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-46",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 16,
+						"h": 25
+					},
+					"frame": {
+						"x": 727,
+						"y": 175,
+						"w": 16,
+						"h": 25
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-15",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 727,
+						"y": 202,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUGSprites-47",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 16,
+						"h": 25
+					},
+					"frame": {
+						"x": 737,
+						"y": 220,
+						"w": 16,
+						"h": 25
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-45",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 16,
+						"h": 25
+					},
+					"frame": {
+						"x": 729,
+						"y": 82,
+						"w": 16,
+						"h": 25
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-46",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 16,
+						"h": 25
+					},
+					"frame": {
+						"x": 746,
+						"y": 55,
+						"w": 16,
+						"h": 25
+					}
+				},
+				{
+					"filename": "SuperInvincibilityUWSprites-47",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 16,
+						"h": 25
+					},
+					"frame": {
+						"x": 729,
+						"y": 109,
+						"w": 16,
+						"h": 25
+					}
+				},
+				{
+					"filename": "SuperLuigiSprites-15",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 16,
+						"h": 25
+					},
+					"frame": {
+						"x": 748,
+						"y": 1,
+						"w": 16,
+						"h": 25
+					}
+				},
+				{
+					"filename": "SuperMarioSprites-15",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 16,
+						"h": 25
+					},
+					"frame": {
+						"x": 748,
+						"y": 28,
+						"w": 16,
+						"h": 25
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-16",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 745,
+						"y": 136,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-17",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 747,
+						"y": 82,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-9",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 764,
+						"y": 55,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "LuigiSprites-1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 747,
+						"y": 100,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "LuigiSprites-10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 747,
+						"y": 118,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "LuigiSprites-11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 766,
+						"y": 1,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "LuigiSprites-12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 766,
+						"y": 19,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "LuigiSprites-13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 766,
+						"y": 37,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "LuigiSprites-4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 745,
+						"y": 154,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "LuigiSprites-7",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 745,
+						"y": 172,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "LuigiSprites-9",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 745,
+						"y": 190,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "MarioSprites-1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 755,
+						"y": 208,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "MarioSprites-10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 755,
+						"y": 226,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "MarioSprites-11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 762,
+						"y": 154,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "MarioSprites-12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 763,
+						"y": 136,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "MarioSprites-13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 764,
+						"y": 100,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "MarioSprites-4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 764,
+						"y": 118,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "MarioSprites-7",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 765,
+						"y": 73,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "MarioSprites-9",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 762,
+						"y": 172,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 762,
+						"y": 190,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 772,
+						"y": 208,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-14",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 772,
+						"y": 226,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-21",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 779,
+						"y": 154,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-22",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 780,
+						"y": 136,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-23",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 779,
+						"y": 172,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-27",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 779,
+						"y": 190,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-28",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 781,
+						"y": 91,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-29",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 781,
+						"y": 109,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 782,
+						"y": 55,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-30",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 782,
+						"y": 73,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-31",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 789,
+						"y": 208,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-32",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 789,
+						"y": 226,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-33",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 796,
+						"y": 154,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-34",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 797,
+						"y": 127,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-35",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 798,
+						"y": 91,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-36",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 798,
+						"y": 109,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-37",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 796,
+						"y": 172,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-38",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 796,
+						"y": 190,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-39",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 806,
+						"y": 208,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 806,
+						"y": 226,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-40",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 783,
+						"y": 1,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-41",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 783,
+						"y": 19,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 783,
+						"y": 37,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 799,
+						"y": 55,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 799,
+						"y": 73,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-14",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 800,
+						"y": 1,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-21",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 800,
+						"y": 19,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-22",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 800,
+						"y": 37,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-23",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 813,
+						"y": 145,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-27",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 814,
+						"y": 127,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-28",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 815,
+						"y": 91,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-29",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 815,
+						"y": 109,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 816,
+						"y": 55,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-30",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 816,
+						"y": 73,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-31",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 813,
+						"y": 163,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-32",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 813,
+						"y": 181,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-33",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 817,
+						"y": 1,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-34",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 817,
+						"y": 19,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-35",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 817,
+						"y": 37,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-36",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 823,
+						"y": 199,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-37",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 823,
+						"y": 217,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-38",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 823,
+						"y": 235,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-39",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 830,
+						"y": 145,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 831,
+						"y": 127,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-40",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 832,
+						"y": 91,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-41",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 832,
+						"y": 109,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 833,
+						"y": 55,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 833,
+						"y": 73,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 830,
+						"y": 163,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-14",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 830,
+						"y": 181,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-21",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 834,
+						"y": 1,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-22",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 834,
+						"y": 19,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-23",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 834,
+						"y": 37,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-27",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 840,
+						"y": 199,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-28",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 840,
+						"y": 217,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-29",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 840,
+						"y": 235,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 847,
+						"y": 145,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-30",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 848,
+						"y": 127,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-31",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 849,
+						"y": 91,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-32",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 849,
+						"y": 109,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-33",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 850,
+						"y": 55,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-34",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 850,
+						"y": 73,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-35",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 847,
+						"y": 163,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-36",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 847,
+						"y": 181,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-37",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 851,
+						"y": 1,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-38",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 851,
+						"y": 19,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-39",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 851,
+						"y": 37,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 857,
+						"y": 199,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-40",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 857,
+						"y": 217,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-41",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 857,
+						"y": 235,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 864,
+						"y": 145,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 865,
+						"y": 127,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 866,
+						"y": 91,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-14",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 866,
+						"y": 109,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-21",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 867,
+						"y": 55,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-22",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 867,
+						"y": 73,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-23",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 864,
+						"y": 163,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-27",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 864,
+						"y": 181,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-28",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 868,
+						"y": 1,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-29",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 868,
+						"y": 19,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 868,
+						"y": 37,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-30",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 874,
+						"y": 199,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-31",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 874,
+						"y": 217,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-32",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 874,
+						"y": 235,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-33",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 881,
+						"y": 145,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-34",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 882,
+						"y": 127,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-35",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 883,
+						"y": 91,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-36",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 883,
+						"y": 109,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-37",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 884,
+						"y": 55,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-38",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 884,
+						"y": 73,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-39",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 881,
+						"y": 163,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 881,
+						"y": 181,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-40",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 885,
+						"y": 1,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-41",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 885,
+						"y": 19,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 885,
+						"y": 37,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "LuigiSprites-0",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 891,
+						"y": 199,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "LuigiSprites-8",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 891,
+						"y": 217,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "MarioSprites-0",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 891,
+						"y": 235,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "MarioSprites-8",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 898,
+						"y": 145,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-0",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 899,
+						"y": 127,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 900,
+						"y": 91,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 900,
+						"y": 109,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-24",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 901,
+						"y": 55,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-25",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 901,
+						"y": 73,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-26",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 898,
+						"y": 163,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-0",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 898,
+						"y": 181,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 902,
+						"y": 1,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 902,
+						"y": 19,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-24",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 902,
+						"y": 37,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-25",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 907,
+						"y": 199,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-26",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 907,
+						"y": 217,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-0",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 907,
+						"y": 235,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 914,
+						"y": 145,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 915,
+						"y": 127,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-24",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 916,
+						"y": 91,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-25",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 916,
+						"y": 109,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-26",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 917,
+						"y": 55,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-0",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 917,
+						"y": 73,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 914,
+						"y": 163,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 914,
+						"y": 181,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-24",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 918,
+						"y": 1,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-25",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 918,
+						"y": 19,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-26",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 918,
+						"y": 37,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "LuigiSprites-2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 923,
+						"y": 199,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "MarioSprites-2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 923,
+						"y": 217,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 923,
+						"y": 235,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-7",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 930,
+						"y": 145,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-8",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 931,
+						"y": 127,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 932,
+						"y": 91,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-7",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 932,
+						"y": 109,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-8",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 933,
+						"y": 55,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 933,
+						"y": 73,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-7",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 930,
+						"y": 163,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-8",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 930,
+						"y": 181,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 934,
+						"y": 1,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-7",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 934,
+						"y": 19,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-8",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 934,
+						"y": 37,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "LuigiSprites-6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 938,
+						"y": 199,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "MarioSprites-6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 938,
+						"y": 216,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-18",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 938,
+						"y": 233,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-19",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 945,
+						"y": 145,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "SmallInvincibilityCASTLESprites-20",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 946,
+						"y": 127,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-18",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 947,
+						"y": 91,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-19",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 947,
+						"y": 108,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "SmallInvincibilityOWSprites-20",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 948,
+						"y": 55,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-18",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 948,
+						"y": 72,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-19",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 945,
+						"y": 162,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUGSprites-20",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 945,
+						"y": 179,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-18",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 949,
+						"y": 1,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-19",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 949,
+						"y": 18,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "SmallInvincibilityUWSprites-20",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 949,
+						"y": 35,
+						"w": 16,
+						"h": 15
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:718e0dd987716b48f641dadf360c50de:e8fc7b94fd2ea00715b1cee18ee32756:aa05ae07452b5c49065256a89df6055b$"
+	}
+}
