@@ -1,11 +1,11 @@
 const gameState = {
-	currentScene: 'World3Level3',
+	currentScene: 'World1Level1',
 	onePlayer: true,
 	character: {
 		mario: {
 			active: true,
 			checkpointPassed: false,
-			progress: 40,
+			progress: 0,
 			score: 0,
 			coins: 0,
 			world: 1,
@@ -15,7 +15,7 @@ const gameState = {
 		luigi: {
 			active: false,
 			checkpointPassed: false,
-			progress: 40,
+			progress: 0,
 			score: 0,
 			coins: 0,
 			world: 1,
