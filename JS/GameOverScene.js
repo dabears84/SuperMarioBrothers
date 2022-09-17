@@ -18,14 +18,14 @@ class GameOverScene extends Phaser.Scene {
 			gameState.hudCoin.anims.play('hudCoinAnim', true);
 			gameState.coinText = this.add.bitmapText(100, 22, 'font', `x${addDigits(gameState.character.luigi.coins, 2)}`, 8).setScrollFactor(0);
 			this.add.bitmapText(145, 14, 'font', `WORLD\n ${gameState.character.luigi.world}-${gameState.character.luigi.level}`, 8).setScrollFactor(0);
-		};
+		}
 		this.add.bitmapText(200, 14, 'font', `TIME`, 8);
 		if (gameState.character.mario.active) {
 			if (gameState.onePlayer) {
 				this.add.bitmapText(95, 115, 'font', `GAME OVER`, 8);
 			} else if (!gameState.onePlayer && gameState.character.mario.active) {
 				this.add.bitmapText(95, 115, 'font', `MARIO\nGAME OVER`, 8).setCenterAlign();
-			};
+			}
 
 			this.time.addEvent({
 				delay: 4000,
@@ -33,7 +33,7 @@ class GameOverScene extends Phaser.Scene {
 				callback: () => {
 					if (gameState.character.mario.score > gameState.topScore) {
 						gameState.topScore = gameState.character.mario.score;
-					};
+					}
 					if (!gameState.onePlayer) {
 						if (gameState.character.luigi.lives >= 1) {
 							gameState.character.mario.active = false;
@@ -42,11 +42,11 @@ class GameOverScene extends Phaser.Scene {
 						} else {
 							this.restart();
 							this.scene.start('StartScene');
-						};
+						}
 					} else {
 						this.restart();
 						this.scene.start('StartScene');
-					};
+					}
 				}
 			});
 		} else {
@@ -57,7 +57,7 @@ class GameOverScene extends Phaser.Scene {
 				callback: () => {
 					if (gameState.character.luigi.score > gameState.topScore) {
 						gameState.topScore = gameState.character.luigi.score;
-					};
+					}
 					if (gameState.character.mario.lives >= 1) {
 						gameState.character.mario.active = true;
 						gameState.character.luigi.active = false;
@@ -65,10 +65,10 @@ class GameOverScene extends Phaser.Scene {
 					} else {
 						this.restart();
 						this.scene.start('StartScene');
-					};
+					}
 				}
 			});
-		};
+		}
 	}
 
 	restart() {

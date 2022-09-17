@@ -79,49 +79,49 @@ const game = new Phaser.Game(config);
 
 // Helper Functions
 function addDigits(num, targetLength) {
-    return num.toString().padStart(targetLength, 0);
-};
+    return num.toString().padStart(targetLength, '0');
+}
 
 function formatTime(seconds){
-    var partInSeconds = seconds;
-    partInSeconds = partInSeconds.toString().padStart(3,'0');
+	let partInSeconds = seconds;
+	partInSeconds = partInSeconds.toString().padStart(3,'0');
     return `${partInSeconds}`;
-};
+}
 
 function onEvent() {
     gameState.time -= 1;
     gameState.timer.setText('TIME\n ' + formatTime(gameState.time));
-};
+}
 
 function movement(enemy) {
 	if (gameState.enemyMovement) {
-		if (enemy.body.velocity.x === 0 && !enemy.body.touching.left && !enemy.body.blocked.left && !enemy.body.touching.right & !enemy.body.blocked.right) {
+		if (enemy.body.velocity.x === 0 && !enemy.body.touching.left && !enemy.body.blocked.left && !enemy.body.touching.right && !enemy.body.blocked.right) {
 			if (enemy === gameState.mushroom || enemy === gameState.oneUpShroom) {
 				enemy.setVelocityX(50);
 			} else {
 				enemy.setVelocityX(-30);
-			};
+			}
 		} else if (enemy.body.velocity.x === 0 && (enemy.body.touching.left || enemy.body.blocked.left)) {
 			if (enemy === gameState.mushroom || enemy === gameState.oneUpShroom) {
 				enemy.setVelocityX(-50);
 			} else {
 				enemy.setVelocityX(30);
-			};
+			}
 		} else if (enemy.body.velocity.x === 0 && (enemy.body.touching.right || enemy.body.blocked.right)) {
 			if (enemy === gameState.mushroom || enemy === gameState.oneUpShroom) {
 				enemy.setVelocityX(50);
 			} else {
 				enemy.setVelocityX(-30);
-			};
-		};
+			}
+		}
 
-		if (enemy.body.velocity.x < 0 && enemy != gameState.mushroom && enemy != gameState.oneUpShroom) {
+		if (enemy.body.velocity.x < 0 && enemy !== gameState.mushroom && enemy !== gameState.oneUpShroom) {
 			enemy.setFlipX(false);
 		} else if (enemy.body.velocity.x > 0 && enemy !== gameState.mushroom && enemy !== gameState.oneUpShroom) {
 			enemy.setFlipX(true);
-		};
-	};
-};
+		}
+	}
+}
 
 function timerPoints() {
 	gameState.time--;
@@ -132,5 +132,5 @@ function timerPoints() {
 	} else {
 		gameState.character.luigi.score += 50;
 		gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-	};
+	}
 }

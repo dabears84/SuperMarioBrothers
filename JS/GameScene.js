@@ -17,7 +17,7 @@ class GameScene extends Phaser.Scene {
 		gameState.checkpoint = checkpoint || 48;
 		if (gameState.timeReset) {
 			gameState.time = time
-		};
+		}
 		this.cameras.main.setBackgroundColor(bgColor);
 		const blockTileset = map.addTilesetImage('MarioEnviro-Extruded', 'blocks');
 		const nonCollideBG = map.createStaticLayer('Non-Collide BG', blockTileset, 0, 0);
@@ -50,7 +50,7 @@ class GameScene extends Phaser.Scene {
 				obj = gameState.coins.create(object.x, object.y, 'sprites', 'Sprites-141');
 			} else if (gameState.mapType === 'castle') {
 				obj = gameState.coins.create(object.x, object.y, 'sprites', 'Sprites-134');
-			};
+			}
 			obj.setOrigin(0, 1).setSize(10, 14);
 		});
 		gameState.objectGroup.addMultiple(gameState.coins.getChildren());
@@ -70,7 +70,7 @@ class GameScene extends Phaser.Scene {
 				obj = gameState.bricks.create(object.x, object.y, 'textures', 'MarioEnviro-164');
 			} else if (gameState.mapType === 'castle') {
 				obj = gameState.bricks.create(object.x, object.y, 'textures', 'MarioEnviro-110');
-			};
+			}
 			obj.setOrigin(0, 1);
 		});
 		gameState.objectGroup.addMultiple(gameState.bricks.getChildren());
@@ -90,7 +90,7 @@ class GameScene extends Phaser.Scene {
 				obj = gameState.oneUpBricks.create(object.x, object.y, 'textures', 'MarioEnviro-164');
 			} else if (gameState.mapType === 'castle') {
 				obj = gameState.oneUpBricks.create(object.x, object.y, 'textures', 'MarioEnviro-110');
-			};
+			}
 			obj.setOrigin(0, 1);
 		});
 		gameState.objectGroup.addMultiple(gameState.oneUpBricks.getChildren());
@@ -110,7 +110,7 @@ class GameScene extends Phaser.Scene {
 				obj = gameState.coinBricks.create(object.x, object.y, 'textures', 'MarioEnviro-164');
 			} else if (gameState.mapType === 'castle') {
 				obj = gameState.coinBricks.create(object.x, object.y, 'textures', 'MarioEnviro-110');
-			};
+			}
 			obj.setOrigin(0, 1);
 		});
 		gameState.objectGroup.addMultiple(gameState.coinBricks.getChildren());
@@ -130,7 +130,7 @@ class GameScene extends Phaser.Scene {
 				obj = gameState.oneUpBoxes.create(object.x, object.y, 'sprites', 'Sprites-112');
 			} else if (gameState.mapType === 'castle') {
 				obj = gameState.oneUpBoxes.create(object.x, object.y, 'sprites', 'Sprites-104');
-			};
+			}
 			obj.setOrigin(0, 1);
 		});
 		gameState.objectGroup.addMultiple(gameState.oneUpBoxes.getChildren());
@@ -150,7 +150,7 @@ class GameScene extends Phaser.Scene {
 				obj = gameState.starBricks.create(object.x, object.y, 'textures', 'MarioEnviro-164');
 			} else if (gameState.mapType === 'castle') {
 				obj = gameState.starBricks.create(object.x, object.y, 'textures', 'MarioEnviro-110');
-			};
+			}
 			obj.setOrigin(0, 1);
 		});
 		gameState.objectGroup.addMultiple(gameState.starBricks.getChildren());
@@ -170,7 +170,7 @@ class GameScene extends Phaser.Scene {
 				obj = gameState.mushroomBricks.create(object.x, object.y, 'textures', 'MarioEnviro-164');
 			} else if (gameState.mapType === 'castle') {
 				obj = gameState.mushroomBricks.create(object.x, object.y, 'textures', 'MarioEnviro-110');
-			};
+			}
 			obj.setOrigin(0, 1);
 		});
 		gameState.objectGroup.addMultiple(gameState.mushroomBricks.getChildren());
@@ -190,7 +190,7 @@ class GameScene extends Phaser.Scene {
 				obj = gameState.vineBricks.create(object.x, object.y, 'textures', 'MarioEnviro-164');
 			} else if (gameState.mapType === 'castle') {
 				obj = gameState.vineBricks.create(object.x, object.y, 'textures', 'MarioEnviro-110');
-			};
+			}
 			obj.setOrigin(0, 1);
 		});
 		gameState.objectGroup.addMultiple(gameState.vineBricks.getChildren());
@@ -210,7 +210,7 @@ class GameScene extends Phaser.Scene {
 				obj = gameState.floatBricks.create(object.x, object.y, 'textures', 'MarioEnviro-163');
 			} else if (gameState.mapType === 'castle') {
 				obj = gameState.floatBricks.create(object.x, object.y, 'textures', 'MarioEnviro-109');
-			};
+			}
 			obj.setOrigin(0, 1);
 		});
 		gameState.objectGroup.addMultiple(gameState.floatBricks.getChildren());
@@ -231,7 +231,7 @@ class GameScene extends Phaser.Scene {
 				obj = gameState.mysteryBoxes.create(object.x, object.y, 'sprites', 'Sprites-112');
 			} else if (gameState.mapType === 'castle') {
 				obj = gameState.mysteryBoxes.create(object.x, object.y, 'sprites', 'Sprites-104');
-			};
+			}
 			obj.setOrigin(0, 1);
 		});
 		gameState.objectGroup.addMultiple(gameState.mysteryBoxes.getChildren());
@@ -251,7 +251,7 @@ class GameScene extends Phaser.Scene {
 				obj = gameState.mushroomBoxes.create(object.x, object.y, 'sprites', 'Sprites-112');
 			} else if (gameState.mapType === 'castle') {
 				obj = gameState.mushroomBoxes.create(object.x, object.y, 'sprites', 'Sprites-104');
-			};
+			}
 			obj.setOrigin(0, 1);
 		});
 		gameState.objectGroup.addMultiple(gameState.mushroomBoxes.getChildren());
@@ -266,7 +266,7 @@ class GameScene extends Phaser.Scene {
 				let obj = {};
 				obj[i] = gameState.bowserBridge.create(object.x, object.y, 'textures', 'MarioEnviro-338');
 				obj[i].setOrigin(0, 1);
-			};
+			}
 		});
 		gameState.objectGroup.addMultiple(gameState.bowserBridge.getChildren());
 
@@ -290,7 +290,7 @@ class GameScene extends Phaser.Scene {
 			gameState.mushroomBoxes.playAnimation('castleMysteryBoxAnim');
 			gameState.oneUpBoxes.playAnimation('owMysteryBoxAnim');
 			gameState.coins.playAnimation('castleCoin');
-		};
+		}
 		gameState.multiplierTimer = this.time.addEvent({
 			delay: 1000,
 			repeat: -1,
@@ -303,36 +303,36 @@ class GameScene extends Phaser.Scene {
 	}
 
 	addPlayer(y, cY) {
-		let x = {};
+		let x;
 		if (gameState.character.mario.active) {
 			if (gameState.character.mario.checkpointPassed) {
 				x = gameState.checkpoint;
 				y = cY || y;
 			} else {
 				x = gameState.character.mario.progress;
-			};
+			}
 			if (gameState.super && !gameState.firePower) {
 				gameState.player = this.physics.add.sprite(x, y, 'playerSprites', 'SuperMarioSprites-0');
 			} else if (gameState.firePower) {
 				gameState.player = this.physics.add.sprite(x, y, 'playerSprites', 'FirePowerSprites-0');
 			} else {
 				gameState.player = this.physics.add.sprite(x, y, 'playerSprites', 'MarioSprites-0');
-			};
+			}
 		} else {
 			if (gameState.character.luigi.checkpointPassed) {
 				x = gameState.checkpoint;
 				y = cY || y;
 			} else {
 				x = gameState.character.luigi.progress;
-			};
+			}
 			if (gameState.super && !gameState.firePower) {
 				gameState.player = this.physics.add.sprite(x, y, 'playerSprites', 'SuperLuigiSprites-0');
 			} else if (gameState.firePower) {
 				gameState.player = this.physics.add.sprite(x, y, 'playerSprites', 'FirePowerSprites-0');
 			} else {
 				gameState.player = this.physics.add.sprite(x, y, 'playerSprites', 'LuigiSprites-0');
-			};
-		};
+			}
+		}
 		gameState.player.setDrag(250, 0).setOrigin(0.5, 1);
 		gameState.fireball = this.physics.add.group();
 		gameState.bubble = this.physics.add.group({
@@ -362,12 +362,12 @@ class GameScene extends Phaser.Scene {
 			} else if (gameState.mapType === 'castle') {
 				obj = gameState.goombas.create(object.x, object.y, 'enemies', 'Enemies-50');
 				obj.play('castleGoombaWalk');
-			};
+			}
 			obj.setOrigin(0, 1);
 			obj.body.setBounce(0.1, 0);
 			if (obj.x > gameState.player.x - 128 && obj.x < gameState.player.x + 128) {
 				obj.destroy();
-			};
+			}
 		});
 		gameState.enemyGroup.addMultiple(gameState.goombas.getChildren());
 
@@ -388,12 +388,12 @@ class GameScene extends Phaser.Scene {
 			} else if (gameState.mapType === 'castle') {
 				obj = gameState.turtles.create(object.x, object.y, 'enemies', 'Enemies-78');
 				obj.play('castleTurtleWalk');
-			};
+			}
 			obj.setOrigin(0, 1);
 			obj.body.setBounce(0.1, 0);
 			if (obj.x > gameState.player.x - 128 && obj.x < gameState.player.x + 128) {
 				obj.destroy();
-			};
+			}
 		});
 		gameState.enemyGroup.addMultiple(gameState.turtles.getChildren());
 
@@ -416,12 +416,12 @@ class GameScene extends Phaser.Scene {
 			} else if (gameState.mapType === 'castle') {
 				obj = gameState.paraturtles.create(object.x, object.y, 'enemies', 'Enemies-80');
 				obj.play('castleParaturtleWalk');
-			};
+			}
 			obj.setOrigin(0, 1);
 			obj.body.setBounce(0.1, 0);
 			if (obj.x > gameState.player.x - 128 && obj.x < gameState.player.x + 128) {
 				obj.destroy();
-			};
+			}
 		});
 		let paraturtleTween = {};
 		let paraturtle = gameState.paraturtles.getChildren();
@@ -434,7 +434,7 @@ class GameScene extends Phaser.Scene {
 				yoyo: true,
 				repeat: -1
 			});
-		};
+		}
 		gameState.enemyGroup.addMultiple(gameState.paraturtles.getChildren());
 
 // Red Turtles
@@ -447,7 +447,7 @@ class GameScene extends Phaser.Scene {
 			obj.body.setBounce(0.1, 0);
 			if (obj.x > gameState.player.x - 128 && obj.x < gameState.player.x + 128) {
 				obj.destroy();
-			};
+			}
 		});
 		gameState.enemyGroup.addMultiple(gameState.redTurtles.getChildren());
 
@@ -463,7 +463,7 @@ class GameScene extends Phaser.Scene {
 			obj.body.setBounce(0.1, 0);
 			if (obj.x > gameState.player.x - 128 && obj.x < gameState.player.x + 128) {
 				obj.destroy();
-			};
+			}
 		});
 		let redParaturtleTween = {};
 		let redParaturtle = gameState.redParaturtles.getChildren();
@@ -476,7 +476,7 @@ class GameScene extends Phaser.Scene {
 				yoyo: true,
 				repeat: -1
 			});
-		};
+		}
 		gameState.enemyGroup.addMultiple(gameState.redParaturtles.getChildren());
 
 // Piranha Plants
@@ -499,12 +499,12 @@ class GameScene extends Phaser.Scene {
 			} else if (gameState.mapType === 'castle') {
 				obj = gameState.piranhaPlants.create(object.x, object.y + 24, 'enemies', 'Enemies-60');
 				obj.play('piranhaPlantCASTLE');
-			};
+			}
 			obj.setOrigin(0, 1);
 			obj.depth = -1;
 			if (gameState.player.x > obj.x - 8 && gameState.player.x < obj.x + 16) {
 				obj.destroy();
-			};
+			}
 		});
 		let piranhaTween = {};
 		let piranha = gameState.piranhaPlants.getChildren();
@@ -525,11 +525,11 @@ class GameScene extends Phaser.Scene {
 						} else {
 							obj.body.setEnable(true);
 							obj.setVisible(true);
-						};
+						}
 					});
 				}
 			});
-		};
+		}
 
 // Bloober
 		this.blooberLayer = map.getObjectLayer('Bloobers')['objects'];
@@ -542,7 +542,7 @@ class GameScene extends Phaser.Scene {
 			obj.body.setGravityY(-100);
 			if (obj.x > gameState.player.x - 128 && obj.x < gameState.player.x + 128) {
 				obj.destroy();
-			};
+			}
 			this.time.addEvent({
 				delay: 100,
 				repeat: 0,
@@ -557,7 +557,7 @@ class GameScene extends Phaser.Scene {
 								obj.setVelocityX(-20);
 							} else {
 								obj.setVelocityX(20);
-							};
+							}
 						}
 					});
 					this.time.addEvent({
@@ -574,7 +574,7 @@ class GameScene extends Phaser.Scene {
 										obj.setVelocityX(-20);
 									} else {
 										obj.setVelocityX(20);
-									};
+									}
 								}
 							});
 						}
@@ -602,7 +602,7 @@ class GameScene extends Phaser.Scene {
 					if (gameState.player.x > 304 && gameState.player.x < 3024) {
 						gameState.redCheeps.create(gameState.player.x - 64, config.height + 8, 'enemies', 'Enemies-72').setGravityY(-600).setFlipX(true).setVelocity(x, -400);
 						gameState.redCheeps.playAnimation('redCheepAnim');
-					};
+					}
 				}
 			});
 			this.time.addEvent({
@@ -612,7 +612,7 @@ class GameScene extends Phaser.Scene {
 					if (gameState.player.x > 176 && gameState.player.x < 3024) {
 						gameState.redCheeps.create(gameState.player.x + 64, config.height + 8, 'enemies', 'Enemies-72').setGravityY(-600).setFlipX(true).setVelocity(x, -400);
 						gameState.redCheeps.playAnimation('redCheepAnim');
-					};
+					}
 				}
 			});
 		} else {
@@ -627,7 +627,7 @@ class GameScene extends Phaser.Scene {
 				obj.setOrigin(0, 1);
 				if (obj.x > gameState.player.x - 128 && obj.x < gameState.player.x + 128) {
 					obj.destroy();
-				};
+				}
 			});
 			let redCheep = gameState.redCheeps.getChildren();
 			for (let i = 1; i < redCheep.length; i += 2) {
@@ -639,7 +639,7 @@ class GameScene extends Phaser.Scene {
 					yoyo: true,
 					repeat: -1
 				});
-			};
+			}
 		}
 
 // Gray Cheep-Cheeps
@@ -654,7 +654,7 @@ class GameScene extends Phaser.Scene {
 			obj.setOrigin(0, 1);
 			if (obj.x > gameState.player.x - 128 && obj.x < gameState.player.x + 128) {
 				obj.destroy();
-			};
+			}
 		});
 		let grayCheep = gameState.grayCheeps.getChildren();
 		for (let i = 1; i < grayCheep.length; i += 2) {
@@ -666,7 +666,7 @@ class GameScene extends Phaser.Scene {
 				yoyo: true,
 				repeat: -1
 			});
-		};
+		}
 
 // Podoboo
 		this.podobooLayer = map.getObjectLayer('Podoboos')['objects'];
@@ -694,7 +694,7 @@ class GameScene extends Phaser.Scene {
 					podo[i].setFlipY(true);
 				}
 			});
-		};
+		}
 		gameState.enemyGroup.addMultiple(gameState.podoboos.getChildren());
 
 		this.addEnemyColliders();
@@ -721,7 +721,7 @@ class GameScene extends Phaser.Scene {
 							} else {
 								gameState.character.luigi.score += 50;
 								gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-							};
+							}
 							if (gameState.mapType === 'above') {
 								brick.setTexture('sprites', 'Sprites-3');
 							} else if (gameState.mapType === 'under') {
@@ -730,7 +730,7 @@ class GameScene extends Phaser.Scene {
 								brick.setTexture('sprites', 'Sprites-22');
 							} else if (gameState.mapType === 'castle') {
 								brick.setTexture('sprites', 'Sprites-16');
-							};
+							}
 							this.time.addEvent({
 								delay: 50,
 								loop: false,
@@ -755,7 +755,7 @@ class GameScene extends Phaser.Scene {
 										gameState.brickQuadrant.create((brick.x + 4), (brick.y - 4), 'sprites', 'Sprites-77').setVelocityX(-100).setVelocityY(-200);
 										gameState.brickQuadrant.create((brick.x + 12), (brick.y - 4), 'sprites', 'Sprites-77').setVelocityX(100).setVelocityY(-200);
 										gameState.brickQuadrant.create((brick.x + 12), (brick.y - 12), 'sprites', 'Sprites-46').setVelocityX(100).setVelocityY(-300);
-									};
+									}
 									gameState.brickQuadrant.playAnimation('brickBreakAnim');
 									brick.destroy();
 								}
@@ -773,8 +773,8 @@ class GameScene extends Phaser.Scene {
 						onComplete: () => {
 						}
 					});
-				};
-			};
+				}
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.player, gameState.floatBricks, (player, brick) => {
 			if (gameState.super && player.body.touching.up) {
@@ -785,7 +785,7 @@ class GameScene extends Phaser.Scene {
 				} else {
 					gameState.character.luigi.score += 50;
 					gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-				};
+				}
 				if (gameState.mapType === 'above') {
 					brick.setTexture('sprites', 'Sprites-3');
 				} else if (gameState.mapType === 'under') {
@@ -794,7 +794,7 @@ class GameScene extends Phaser.Scene {
 					brick.setTexture('sprites', 'Sprites-22');
 				} else if (gameState.mapType === 'castle') {
 					brick.setTexture('sprites', 'Sprites-16');
-				};
+				}
 				this.time.addEvent({
 					delay: 50,
 					loop: false,
@@ -819,7 +819,7 @@ class GameScene extends Phaser.Scene {
 							gameState.brickQuadrant.create((brick.x + 4), (brick.y - 4), 'sprites', 'Sprites-77').setVelocityX(-100).setVelocityY(-200);
 							gameState.brickQuadrant.create((brick.x + 12), (brick.y - 4), 'sprites', 'Sprites-77').setVelocityX(100).setVelocityY(-200);
 							gameState.brickQuadrant.create((brick.x + 12), (brick.y - 12), 'sprites', 'Sprites-46').setVelocityX(100).setVelocityY(-300);
-						};
+						}
 						gameState.brickQuadrant.playAnimation('brickBreakAnim');
 						brick.destroy();
 					}
@@ -835,7 +835,7 @@ class GameScene extends Phaser.Scene {
 						gameState.sfx.bump.play();
 					}
 				});
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.player, gameState.coinBricks, (player, brick) => {
 			if (player.body.touching.up) {
@@ -887,7 +887,7 @@ class GameScene extends Phaser.Scene {
 										gameState.character.luigi.score += 200;
 										gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
 										gameState.coinText.text = `x${addDigits(gameState.character.luigi.coins, 2)}`;
-									};
+									}
 								}
 							});
 						}
@@ -903,7 +903,7 @@ class GameScene extends Phaser.Scene {
 						brick = this.physics.add.sprite(brick.x, brick.y, 'textures', 'MarioEnviro-165').setImmovable(true);
 					} else if (gameState.mapType === 'castle') {
 						brick = this.physics.add.sprite(brick.x, brick.y, 'textures', 'MarioEnviro-111').setImmovable(true);
-					};
+					}
 					brick.body.setAllowGravity(false);
 					brick.setOrigin(0, 1);
 					this.physics.add.collider(player, brick, () => {
@@ -914,9 +914,9 @@ class GameScene extends Phaser.Scene {
 					this.physics.add.collider(gameState.paraturtles, brick);
 					this.physics.add.collider(gameState.redTurtles, brick);
 					this.physics.add.collider(gameState.redParaturtles, brick);
-				};
+				}
 				gameState.sfx.bump.play();
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.player, gameState.oneUpBoxes, (player, box) => {
 			if (player.body.touching.up) {
@@ -936,7 +936,7 @@ class GameScene extends Phaser.Scene {
 							box = this.physics.add.sprite(box.x, box.y, 'textures', 'MarioEnviro-165').setImmovable(true);
 						} else if (gameState.mapType === 'castle') {
 							box = this.physics.add.sprite(box.x, box.y, 'textures', 'MarioEnviro-111').setImmovable(true);
-						};
+						}
 						box.body.setAllowGravity(false);
 						box.setOrigin(0, 1);
 						this.physics.add.collider(player, box, () => {
@@ -955,7 +955,7 @@ class GameScene extends Phaser.Scene {
 							gameState.oneUpShroom = this.physics.add.sprite(box.x, box.y, 'sprites', 'Sprites-20').setOrigin(0, 1).setSize(10);
 						} else if (gameState.mapType === 'castle') {
 							gameState.oneUpShroom = this.physics.add.sprite(box.x, box.y, 'sprites', 'Sprites-14').setOrigin(0, 1).setSize(10);
-						};
+						}
 						gameState.sfx.powerUpAppears.play();
 						gameState.oneUpShroom.depth = -1;
 						gameState.oneUpShroom.body.setAllowGravity(false);
@@ -992,7 +992,7 @@ class GameScene extends Phaser.Scene {
 										gameState.character.mario.lives++;
 									} else {
 										gameState.character.luigi.lives++;
-									};
+									}
 									gameState.sfx.oneUp.play();
 								});
 							}
@@ -1000,7 +1000,7 @@ class GameScene extends Phaser.Scene {
 					}
 				});
 				gameState.sfx.bump.play();
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.player, gameState.mysteryBoxes, (player, box) => {
 			if (gameState.player.body.touching.up) {
@@ -1020,7 +1020,7 @@ class GameScene extends Phaser.Scene {
 							box = this.physics.add.sprite(box.x, box.y, 'textures', 'MarioEnviro-165').setImmovable(true);
 						} else if (gameState.mapType === 'castle') {
 							box = this.physics.add.sprite(box.x, box.y, 'textures', 'MarioEnviro-111').setImmovable(true);
-						};
+						}
 						box.body.setAllowGravity(false);
 						box.setOrigin(0, 1);
 						this.physics.add.collider(gameState.goombas, box);
@@ -1064,13 +1064,13 @@ class GameScene extends Phaser.Scene {
 									gameState.character.luigi.score += 200;
 									gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
 									gameState.coinText.text = `x${addDigits(gameState.character.luigi.coins, 2)}`;
-								};
+								}
 							}
 						});
 					}
 				});
 				gameState.sfx.bump.play();
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.player, gameState.mushroomBoxes, (player, box) => {
 			if (gameState.player.body.touching.up) {
@@ -1090,7 +1090,7 @@ class GameScene extends Phaser.Scene {
 							box = this.physics.add.sprite(box.x, box.y, 'textures', 'MarioEnviro-165').setImmovable(true);
 						} else if (gameState.mapType === 'castle') {
 							box = this.physics.add.sprite(box.x, box.y, 'textures', 'MarioEnviro-111').setImmovable(true);
-						};
+						}
 						box.body.setAllowGravity(false);
 						box.setOrigin(0, 1);
 						this.physics.add.collider(player, box, () => {
@@ -1111,7 +1111,7 @@ class GameScene extends Phaser.Scene {
 							} else if (gameState.mapType === 'castle') {
 								flower = this.physics.add.sprite(box.x, box.y, 'sprites', 'Sprites-50').setOrigin(0, 1);
 								flower.anims.play('castleFlower', true);
-							};
+							}
 							gameState.sfx.powerUpAppears.play();
 							flower.depth = -1;
 							flower.body.setAllowGravity(false);
@@ -1141,7 +1141,7 @@ class GameScene extends Phaser.Scene {
 										} else {
 											gameState.character.luigi.score += 1000;
 											gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-										};
+										}
 										flower.destroy();
 										if (gameState.super && !gameState.firePower) {
 											gameState.firePower = true;
@@ -1200,8 +1200,8 @@ class GameScene extends Phaser.Scene {
 														gameState.animations = true;
 													}
 												});
-											};
-										};
+											}
+										}
 									});
 								}
 							});
@@ -1242,7 +1242,7 @@ class GameScene extends Phaser.Scene {
 										} else {
 											gameState.character.luigi.score += 1000;
 											gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-										};
+										}
 										gameState.sfx.powerUp.play();
 										if (gameState.character.mario.active) {
 											gameState.super = true;
@@ -1285,15 +1285,15 @@ class GameScene extends Phaser.Scene {
 													gameState.animations = true;
 												}
 											});
-										};
+										}
 									});
 								}
 							});
-						};
+						}
 					}
 				});
 				gameState.sfx.bump.play();
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.player, gameState.mushroomBricks, (player, brick) => {
 			if (gameState.player.body.touching.up) {
@@ -1313,7 +1313,7 @@ class GameScene extends Phaser.Scene {
 							brick = this.physics.add.sprite(brick.x, brick.y, 'textures', 'MarioEnviro-165').setImmovable(true);
 						} else if (gameState.mapType === 'castle') {
 							brick = this.physics.add.sprite(brick.x, brick.y, 'textures', 'MarioEnviro-111').setImmovable(true);
-						};
+						}
 						brick.body.setAllowGravity(false);
 						brick.setOrigin(0, 1);
 						this.physics.add.collider(player, brick, () => {
@@ -1330,7 +1330,7 @@ class GameScene extends Phaser.Scene {
 								flower = this.physics.add.sprite(brick.x, brick.y, 'sprites', 'Sprites-50').setOrigin(0, 1);
 							} else if (gameState.mapType === 'castle') {
 								flower = this.physics.add.sprite(brick.x, brick.y, 'sprites', 'Sprites-42').setOrigin(0, 1);
-							};
+							}
 							flower.anims.play('owFlower', true);
 							gameState.sfx.powerUpAppears.play();
 							flower.depth = -1;
@@ -1361,7 +1361,7 @@ class GameScene extends Phaser.Scene {
 										} else {
 											gameState.character.luigi.score += 1000;
 											gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-										};
+										}
 										flower.destroy();
 										if (gameState.super && !gameState.firePower) {
 											gameState.firePower = true;
@@ -1420,8 +1420,8 @@ class GameScene extends Phaser.Scene {
 														gameState.animations = true;
 													}
 												});
-											};
-										};
+											}
+										}
 									});
 								}
 							});
@@ -1462,7 +1462,7 @@ class GameScene extends Phaser.Scene {
 										} else {
 											gameState.character.luigi.score += 1000;
 											gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-										};
+										}
 										gameState.sfx.powerUp.play();
 										if (gameState.character.mario.active) {
 											gameState.super = true;
@@ -1505,15 +1505,15 @@ class GameScene extends Phaser.Scene {
 													gameState.animations = true;
 												}
 											});
-										};
+										}
 									});
 								}
 							});
-						};
+						}
 					}
 				});
 				gameState.sfx.bump.play();
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.player, gameState.oneUpBricks, (player, brick) => {
 			if (gameState.player.body.touching.up) {
@@ -1533,7 +1533,7 @@ class GameScene extends Phaser.Scene {
 							brick = this.physics.add.sprite(brick.x, brick.y, 'textures', 'MarioEnviro-165').setImmovable(true);
 						} else if (gameState.mapType === 'castle') {
 							brick = this.physics.add.sprite(brick.x, brick.y, 'textures', 'MarioEnviro-111').setImmovable(true);
-						};
+						}
 						brick.body.setAllowGravity(false);
 						brick.setOrigin(0, 1);
 						this.physics.add.collider(player, brick, () => {
@@ -1552,7 +1552,7 @@ class GameScene extends Phaser.Scene {
 							gameState.oneUpShroom = this.physics.add.sprite(brick.x, brick.y, 'sprites', 'Sprites-20').setOrigin(0, 1).setSize(10);
 						} else if (gameState.mapType === 'castle') {
 							gameState.oneUpShroom = this.physics.add.sprite(brick.x, brick.y, 'sprites', 'Sprites-14').setOrigin(0, 1).setSize(10);
-						};
+						}
 						gameState.sfx.powerUpAppears.play();
 						gameState.oneUpShroom.depth = -1;
 						gameState.oneUpShroom.body.setAllowGravity(false);
@@ -1591,7 +1591,7 @@ class GameScene extends Phaser.Scene {
 										gameState.character.mario.lives++;
 									} else {
 										gameState.character.luigi.lives++;
-									};
+									}
 									gameState.sfx.oneUp.play();
 								});
 							}
@@ -1599,7 +1599,7 @@ class GameScene extends Phaser.Scene {
 					}
 				});
 				gameState.sfx.bump.play();
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.player, gameState.starBricks, (player, brick) => {
 			if (gameState.player.body.touching.up) {
@@ -1619,7 +1619,7 @@ class GameScene extends Phaser.Scene {
 							brick = this.physics.add.sprite(brick.x, brick.y, 'textures', 'MarioEnviro-165').setImmovable(true);
 						} else if (gameState.mapType === 'castle') {
 							brick = this.physics.add.sprite(brick.x, brick.y, 'textures', 'MarioEnviro-111').setImmovable(true);
-						};
+						}
 						brick.body.setAllowGravity(false);
 						brick.setOrigin(0, 1);
 						this.physics.add.collider(player, brick, () => {
@@ -1639,7 +1639,7 @@ class GameScene extends Phaser.Scene {
 							gameState.star.anims.play('uwStar', true);
 						} else if (gameState.mapType === 'castle') {
 							gameState.star.anims.play('castleStar', true);
-						};
+						}
 						gameState.sfx.powerUpAppears.play();
 						gameState.sfx.powerUpAppears.play();
 						gameState.star.depth = -1;
@@ -1681,7 +1681,7 @@ class GameScene extends Phaser.Scene {
 									} else {
 										gameState.character.luigi.score += 1000;
 										gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-									};
+									}
 									gameState.player.anims.stop();
 									this.game.sound.stopAll();
 									gameState.sfx.powerUp.play();
@@ -1703,7 +1703,7 @@ class GameScene extends Phaser.Scene {
 						});
 					}
 				});
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.player, gameState.vineBricks, (player, brick) => {
 			if (player.body.touching.up) {
@@ -1723,7 +1723,7 @@ class GameScene extends Phaser.Scene {
 							brick = this.physics.add.sprite(brick.x, brick.y, 'textures', 'MarioEnviro-22').setImmovable(true);
 						} else if (gameState.mapType === 'castle') {
 							brick = this.physics.add.sprite(brick.x, brick.y, 'textures', 'MarioEnviro-16').setImmovable(true);
-						};
+						}
 						brick.body.setAllowGravity(false);
 						brick.setOrigin(0, 1);
 						this.physics.add.collider(player, brick, () => {
@@ -1843,13 +1843,13 @@ class GameScene extends Phaser.Scene {
 									gameState.player.play('superMarioClimb', true);
 								} else {
 									gameState.player.play('marioClimb', true);
-								};
+								}
 							} else if (gameState.character.luigi.active && !gameState.firePower) {
 								if (gameState.super) {
 									gameState.player.play('superLuigiClimb', true);
 								} else {
 									gameState.player.play('luigiClimb', true);
-								};
+								}
 							} else {
 								gameState.player.play('fireClimb', true);
 							}
@@ -1863,20 +1863,20 @@ class GameScene extends Phaser.Scene {
 									gameState.player.setTexture('playerSprites', 'SuperMarioSprites-8');
 								} else {
 									gameState.player.setTexture('playerSprites', 'MarioSprites-8');
-								};
+								}
 							} else if (gameState.character.luigi.active && !gameState.firePower) {
 								if (gameState.super) {
 									gameState.player.setTexture('playerSprites', 'SuperLuigiSprites-8');
 								} else {
 									gameState.player.setTexture('playerSprites', 'LuigiSprites-8');
-								};
+								}
 							} else {
 								gameState.player.setTexture('playerSprites', 'FirePowerSprites-8');
-							};
+							}
 						}
 					});
 				}, null, this)
-			};
+			}
 		}, null, this);
 		this.physics.add.overlap(gameState.player, gameState.coins, (player, coin) => {
 			gameState.sfx.coin.play();
@@ -1891,9 +1891,9 @@ class GameScene extends Phaser.Scene {
 				gameState.character.luigi.score += 200;
 				gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
 				gameState.coinText.text = `x${addDigits(gameState.character.luigi.coins, 2)}`;
-			};
+			}
 		}, null, this);
-		this.physics.add.collider(gameState.fireball, gameState.background, (fireball, bg) => {
+		this.physics.add.collider(gameState.fireball, gameState.background, (fireball) => {
 			if (fireball.body.onWall()) {
 				gameState.sfx.bump.play();
 				fireball.body.setAllowGravity(false);
@@ -1908,7 +1908,7 @@ class GameScene extends Phaser.Scene {
 				});
 			}
 		}, null, this);
-		this.physics.add.collider(gameState.fireball, gameState.objectGroup, (fireball, brick) => {
+		this.physics.add.collider(gameState.fireball, gameState.objectGroup, (fireball) => {
 			if (fireball.body.touching.right || fireball.body.touching.left) {
 				gameState.sfx.bump.play();
 				fireball.body.setAllowGravity(false);
@@ -1921,7 +1921,7 @@ class GameScene extends Phaser.Scene {
 						fireball.destroy();
 					}
 				});
-			};
+			}
 		}, null, this);
 	}
 
@@ -1945,7 +1945,7 @@ class GameScene extends Phaser.Scene {
 					goomba.setTexture('enemies', 'Enemies-52');
 				} else if (gameState.mapType === 'castle') {
 					goomba.setTexture('enemies', 'Enemies-76');
-				};
+				}
 				this.time.addEvent({
 					delay: 1000,
 					loop: false,
@@ -1955,7 +1955,7 @@ class GameScene extends Phaser.Scene {
 				});
 				if (gameState.multiplier <= 10) {
 					gameState.multiplier++;
-				};
+				}
 				gameState.multiplierTimer.reset({
 					delay: 1000,
 					repeat: -1,
@@ -1979,16 +1979,16 @@ class GameScene extends Phaser.Scene {
 						gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 					} else {
 						gameState.character.mario.lives++;
-					};
+					}
 					gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 				} else {
 					if (gameState.multiplier < 10) {
 						gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 					} else {
 						gameState.character.luigi.lives++;
-					};
+					}
 					gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-				};
+				}
 			} else if (gameState.invincible) {
 				if (player.body.velocity.x > 0) {
 					goomba.setFlipY(true);
@@ -2019,16 +2019,16 @@ class GameScene extends Phaser.Scene {
 							gameState.character.mario.score += 100;
 						} else {
 							gameState.character.mario.lives++;
-						};
+						}
 						gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 					} else {
 						if (gameState.multiplier < 10) {
 							gameState.character.luigi.score += 100;
 						} else {
 							gameState.character.luigi.lives++;
-						};
+						}
 						gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-					};
+					}
 				} else if (player.body.velocity.x < 0) {
 					goomba.setFlipY(true);
 					goomba.setVelocity(-300, -300);
@@ -2058,22 +2058,22 @@ class GameScene extends Phaser.Scene {
 							gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 						} else {
 							gameState.character.mario.lives++;
-						};
+						}
 						gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 					} else {
 						if (gameState.multiplier < 10) {
 							gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 						} else {
 							gameState.character.luigi.lives++;
-						};
+						}
 						gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-					};
-				};
+					}
+				}
 			} else if (gameState.invulnerable) {
 
 			} else {
 				this.onHit();
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.player, gameState.turtles, (player, turtle) => {
 			if (player.body.touching.down && !gameState.invincible) {
@@ -2082,7 +2082,7 @@ class GameScene extends Phaser.Scene {
 				turtle.body.stop();
 				if (gameState.multiplier <= 10) {
 					gameState.multiplier++;
-				};
+				}
 				gameState.multiplierTimer.reset({
 					delay: 1000,
 					repeat: -1,
@@ -2106,16 +2106,16 @@ class GameScene extends Phaser.Scene {
 						gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 					} else {
 						gameState.character.mario.lives++;
-					};
+					}
 					gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 				} else {
 					if (gameState.multiplier < 10) {
 						gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 					} else {
 						gameState.character.luigi.lives++;
-					};
+					}
 					gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-				};
+				}
 				turtle.destroy();
 				let shell = {};
 				if (gameState.mapType === 'above') {
@@ -2126,20 +2126,20 @@ class GameScene extends Phaser.Scene {
 					shell = this.physics.add.sprite(turtle.x, turtle.y, 'enemies', 'Enemies-81').setOrigin(0, 1).setSize(16, 14).setMass(5);
 				} else if (gameState.mapType === 'castle') {
 					shell = this.physics.add.sprite(turtle.x, turtle.y, 'enemies', 'Enemies-81').setOrigin(0, 1).setSize(16, 14).setMass(5);
-				};
+				}
 				this.physics.add.collider(shell, gameState.background, () => {
 					if (shell.body.blocked.left || shell.body.touching.left) {
 						shell.setVelocityX(200);
 					} else if (shell.body.blocked.right || shell.body.touching.right) {
 						shell.setVelocityX(-200);
-					};
+					}
 				}, null, this);
 				this.physics.add.collider(shell, gameState.objectGroup, () => {
 					if (shell.body.blocked.left || shell.body.touching.left) {
 						shell.setVelocityX(200);
 					} else if (shell.body.blocked.right || shell.body.touching.right) {
 						shell.setVelocityX(-200);
-					};
+					}
 				}, null, this);
 				this.physics.add.collider(shell, gameState.player, (shell, player) => {
 					if (shell.body.velocity.x > -100 && player.body.touching.right && !gameState.invincible) {
@@ -2174,16 +2174,16 @@ class GameScene extends Phaser.Scene {
 								gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.mario.lives++;
-							};
+							}
 							gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 						} else {
 							if (gameState.multiplier < 10) {
 								gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.luigi.lives++;
-							};
+							}
 							gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-						};
+						}
 					} else if (gameState.invulnerable) {
 						player.body.checkCollision.left = false;
 						player.body.checkCollision.right = false;
@@ -2196,7 +2196,7 @@ class GameScene extends Phaser.Scene {
 						});
 					} else {
 						this.onHit();
-					};
+					}
 				}, null, this);
 				this.physics.add.collider(shell, gameState.goombas, (shell, goomba) => {
 					if (shell.body.velocity.x > 50 || shell.body.velocity.x < -50) {
@@ -2213,7 +2213,7 @@ class GameScene extends Phaser.Scene {
 						});
 						if (gameState.multiplier <= 10) {
 							gameState.multiplier++;
-						};
+						}
 						gameState.multiplierTimer.reset({
 							delay: 1000,
 							repeat: -1,
@@ -2237,23 +2237,23 @@ class GameScene extends Phaser.Scene {
 								gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.mario.lives++;
-							};
+							}
 							gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 						} else {
 							if (gameState.multiplier < 10) {
 								gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.luigi.lives++;
-							};
+							}
 							gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-						};
-					};
+						}
+					}
 				});
 				this.physics.add.collider(shell, gameState.turtles, (shell, turtle) => {
 					if (shell.body.velocity.x > 50 || shell.body.velocity.x < -50) {
 						if (gameState.multiplier <= 10) {
 							gameState.multiplier++;
-						};
+						}
 						gameState.multiplierTimer.reset({
 							delay: 1000,
 							repeat: -1,
@@ -2277,16 +2277,16 @@ class GameScene extends Phaser.Scene {
 								gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.mario.lives++;
-							};
+							}
 							gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 						} else {
 							if (gameState.multiplier < 10) {
 								gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.luigi.lives++;
-							};
+							}
 							gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-						};
+						}
 						turtle.anims.stop();
 						if (gameState.mapType === 'above') {
 							turtle.setTexture('enemies', 'Enemies-7');
@@ -2296,7 +2296,7 @@ class GameScene extends Phaser.Scene {
 							turtle.setTexture('enemies', 'Enemies-81');
 						} else if (gameState.mapType === 'castle') {
 							turtle.setTexture('enemies', 'Enemies-81');
-						};
+						}
 						gameState.sfx.kick.play();
 						turtle.setFlipY(true);
 						if (gameState.playerFacing === 'right') {
@@ -2305,7 +2305,7 @@ class GameScene extends Phaser.Scene {
 						} else {
 							turtle.setVelocityY(-200);
 							turtle.setVelocityX(-50);
-						};
+						}
 						turtle.body.checkCollision.none = true;
 						this.time.addEvent({
 							delay: 2000,
@@ -2314,13 +2314,13 @@ class GameScene extends Phaser.Scene {
 								turtle.destroy();
 							}
 						});
-					};
+					}
 				});
 				this.physics.add.collider(shell, gameState.redTurtles, (shell, turtle) => {
 					if (shell.body.velocity.x > 50 || shell.body.velocity.x < -50) {
 						if (gameState.multiplier <= 10) {
 							gameState.multiplier++;
-						};
+						}
 						gameState.multiplierTimer.reset({
 							delay: 1000,
 							repeat: -1,
@@ -2344,16 +2344,16 @@ class GameScene extends Phaser.Scene {
 								gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.mario.lives++;
-							};
+							}
 							gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 						} else {
 							if (gameState.multiplier < 10) {
 								gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.luigi.lives++;
-							};
+							}
 							gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-						};
+						}
 						turtle.anims.stop();
 						turtle.setTexture('enemies', 'Enemies-57');
 						gameState.sfx.kick.play();
@@ -2364,7 +2364,7 @@ class GameScene extends Phaser.Scene {
 						} else {
 							turtle.setVelocityY(-200);
 							turtle.setVelocityX(-50);
-						};
+						}
 						turtle.body.checkCollision.none = true;
 						this.time.addEvent({
 							delay: 2000,
@@ -2373,13 +2373,13 @@ class GameScene extends Phaser.Scene {
 								turtle.destroy();
 							}
 						});
-					};
+					}
 				});
 				this.physics.add.collider(shell, gameState.redParaturtles, (shell, turtle) => {
 					if (shell.body.velocity.x > 50 || shell.body.velocity.x < -50) {
 						if (gameState.multiplier <= 10) {
 							gameState.multiplier++;
-						};
+						}
 						gameState.multiplierTimer.reset({
 							delay: 1000,
 							repeat: -1,
@@ -2403,16 +2403,16 @@ class GameScene extends Phaser.Scene {
 								gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.mario.lives++;
-							};
+							}
 							gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 						} else {
 							if (gameState.multiplier < 10) {
 								gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.luigi.lives++;
-							};
+							}
 							gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-						};
+						}
 						turtle.anims.stop();
 						turtle.setTexture('enemies', 'Enemies-57');
 						turtle.body.setAllowGravity(true);
@@ -2426,7 +2426,7 @@ class GameScene extends Phaser.Scene {
 								turtle.destroy();
 							}
 						});
-					};
+					}
 				});
 				this.physics.add.collider(gameState.fireball, shell, (fireball, shell) => {
 					gameState.sfx.bump.play();
@@ -2456,16 +2456,16 @@ class GameScene extends Phaser.Scene {
 							gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 						} else {
 							gameState.character.mario.lives++;
-						};
+						}
 						gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 					} else {
 						if (gameState.multiplier < 10) {
 							gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 						} else {
 							gameState.character.luigi.lives++;
-						};
+						}
 						gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-					};
+					}
 					shell.anims.stop();
 					if (gameState.mapType === 'above') {
 						shell.setTexture('enemies', 'Enemies-7');
@@ -2475,7 +2475,7 @@ class GameScene extends Phaser.Scene {
 						shell.setTexture('enemies', 'Enemies-81');
 					} else if (gameState.mapType === 'castle') {
 						shell.setTexture('enemies', 'Enemies-81');
-					};
+					}
 					shell.setFlipY(true);
 					if (gameState.playerFacing === 'right') {
 						shell.setVelocityY(-200);
@@ -2483,7 +2483,7 @@ class GameScene extends Phaser.Scene {
 					} else {
 						shell.setVelocityY(-200);
 						shell.setVelocityX(-50);
-					};
+					}
 					shell.body.checkCollision.none = true;
 					this.time.addEvent({
 						delay: 2000,
@@ -2507,7 +2507,7 @@ class GameScene extends Phaser.Scene {
 							shell.play('turtleEmergeUW');
 						} else if (gameState.mapType === 'castle') {
 							shell.play('turtleEmergeCASTLE');
-						};
+						}
 						this.time.addEvent({
 							delay: 2000,
 							loop: false,
@@ -2525,7 +2525,7 @@ class GameScene extends Phaser.Scene {
 								} else if (gameState.mapType === 'castle') {
 									turtle = gameState.turtles.create(shell.x, shell.y, 'enemies', 'Enemies-78').setOrigin(0, 1).setSize(16, 24);
 									turtle.play('castleTurtleWalk', true);
-								};
+								}
 								turtle.setVelocityX(-30);
 								turtle.setOrigin(0, 1);
 								turtle.body.setBounce(1, 1);
@@ -2550,16 +2550,16 @@ class GameScene extends Phaser.Scene {
 						gameState.character.mario.score += 100;
 					} else {
 						gameState.character.mario.lives++;
-					};
+					}
 					gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 				} else {
 					if (gameState.multiplier < 10) {
 						gameState.character.luigi.score += 100;
 					} else {
 						gameState.character.luigi.lives++;
-					};
+					}
 					gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-				};
+				}
 				turtle.anims.stop();
 				if (gameState.mapType === 'above') {
 					turtle.setTexture('enemies', 'Enemies-7');
@@ -2569,7 +2569,7 @@ class GameScene extends Phaser.Scene {
 					turtle.setTexture('enemies', 'Enemies-81');
 				} else if (gameState.mapType === 'castle') {
 					turtle.setTexture('enemies', 'Enemies-81');
-				};
+				}
 				turtle.setFlipY(true);
 				if (gameState.playerFacing === 'right') {
 					turtle.setVelocityY(-200);
@@ -2577,7 +2577,7 @@ class GameScene extends Phaser.Scene {
 				} else {
 					turtle.setVelocityY(-200);
 					turtle.setVelocityX(-50);
-				};
+				}
 				turtle.body.checkCollision.none = true;
 				this.time.addEvent({
 					delay: 2000,
@@ -2598,7 +2598,7 @@ class GameScene extends Phaser.Scene {
 				});
 			} else {
 				this.onHit();
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.player, gameState.paraturtles, (player, turtle) => {
 			if (player.body.touching.down && !gameState.invincible) {
@@ -2607,7 +2607,7 @@ class GameScene extends Phaser.Scene {
 				turtle.body.stop();
 				if (gameState.multiplier <= 10) {
 					gameState.multiplier++;
-				};
+				}
 				gameState.multiplierTimer.reset({
 					delay: 1000,
 					repeat: -1,
@@ -2631,16 +2631,16 @@ class GameScene extends Phaser.Scene {
 						gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 					} else {
 						gameState.character.mario.lives++;
-					};
+					}
 					gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 				} else {
 					if (gameState.multiplier < 10) {
 						gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 					} else {
 						gameState.character.luigi.lives++;
-					};
+					}
 					gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-				};
+				}
 				turtle.destroy();
 				turtle = gameState.turtles.create(turtle.x, turtle.y, 'enemies', 'Enemies-54');
 			} else if (gameState.invincible) {
@@ -2660,16 +2660,16 @@ class GameScene extends Phaser.Scene {
 						gameState.character.mario.score += 100;
 					} else {
 						gameState.character.mario.lives++;
-					};
+					}
 					gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 				} else {
 					if (gameState.multiplier < 10) {
 						gameState.character.luigi.score += 100;
 					} else {
 						gameState.character.luigi.lives++;
-					};
+					}
 					gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-				};
+				}
 				turtle.anims.stop();
 				turtle.setTexture('enemies', 'Enemies-57');
 				turtle.setFlipY(true);
@@ -2679,7 +2679,7 @@ class GameScene extends Phaser.Scene {
 				} else {
 					turtle.setVelocityY(-200);
 					turtle.setVelocityX(-50);
-				};
+				}
 				turtle.body.checkCollision.none = true;
 				this.time.addEvent({
 					delay: 2000,
@@ -2692,7 +2692,7 @@ class GameScene extends Phaser.Scene {
 				
 			} else {
 				this.onHit();
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.player, gameState.redTurtles, (player, turtle) => {
 			if (player.body.touching.down && !gameState.invincible) {
@@ -2701,7 +2701,7 @@ class GameScene extends Phaser.Scene {
 				turtle.body.stop();
 				if (gameState.multiplier <= 10) {
 					gameState.multiplier++;
-				};
+				}
 				gameState.multiplierTimer.reset({
 					delay: 1000,
 					repeat: -1,
@@ -2725,16 +2725,16 @@ class GameScene extends Phaser.Scene {
 						gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 					} else {
 						gameState.character.mario.lives++;
-					};
+					}
 					gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 				} else {
 					if (gameState.multiplier < 10) {
 						gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 					} else {
 						gameState.character.luigi.lives++;
-					};
+					}
 					gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-				};
+				}
 				turtle.destroy();
 				let shell = this.physics.add.sprite(turtle.x, turtle.y, 'enemies', 'Enemies-57').setOrigin(0, 1).setSize(16, 14).setMass(5);
 				this.physics.add.collider(shell, gameState.background, () => {
@@ -2742,14 +2742,14 @@ class GameScene extends Phaser.Scene {
 						shell.setVelocityX(200);
 					} else if (shell.body.blocked.right || shell.body.touching.right) {
 						shell.setVelocityX(-200);
-					};
+					}
 				}, null, this);
 				this.physics.add.collider(shell, gameState.objectGroup, () => {
 					if (shell.body.blocked.left || shell.body.touching.left) {
 						shell.setVelocityX(200);
 					} else if (shell.body.blocked.right || shell.body.touching.right) {
 						shell.setVelocityX(-200);
-					};
+					}
 				}, null, this);
 				this.physics.add.collider(shell, gameState.player, (shell, player) => {
 					if (shell.body.velocity.x > -100 && player.body.touching.right && !gameState.invincible) {
@@ -2784,16 +2784,16 @@ class GameScene extends Phaser.Scene {
 								gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.mario.lives++;
-							};
+							}
 							gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 						} else {
 							if (gameState.multiplier < 10) {
 								gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.luigi.lives++;
-							};
+							}
 							gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-						};
+						}
 					} else if (gameState.invulnerable) {
 						player.body.checkCollision.left = false;
 						player.body.checkCollision.right = false;
@@ -2806,7 +2806,7 @@ class GameScene extends Phaser.Scene {
 						});
 					} else {
 						this.onHit();
-					};
+					}
 				}, null, this);
 				this.physics.add.collider(shell, gameState.goombas, (shell, goomba) => {
 					if (shell.body.velocity.x > 50 || shell.body.velocity.x < -50) {
@@ -2823,7 +2823,7 @@ class GameScene extends Phaser.Scene {
 						});
 						if (gameState.multiplier <= 10) {
 							gameState.multiplier++;
-						};
+						}
 						gameState.multiplierTimer.reset({
 							delay: 1000,
 							repeat: -1,
@@ -2847,23 +2847,23 @@ class GameScene extends Phaser.Scene {
 								gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.mario.lives++;
-							};
+							}
 							gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 						} else {
 							if (gameState.multiplier < 10) {
 								gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.luigi.lives++;
-							};
+							}
 							gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-						};
-					};
+						}
+					}
 				});
 				this.physics.add.collider(shell, gameState.turtles, (shell, turtle) => {
 					if (shell.body.velocity.x > 50 || shell.body.velocity.x < -50) {
 						if (gameState.multiplier <= 10) {
 							gameState.multiplier++;
-						};
+						}
 						gameState.multiplierTimer.reset({
 							delay: 1000,
 							repeat: -1,
@@ -2887,16 +2887,16 @@ class GameScene extends Phaser.Scene {
 								gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.mario.lives++;
-							};
+							}
 							gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 						} else {
 							if (gameState.multiplier < 10) {
 								gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.luigi.lives++;
-							};
+							}
 							gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-						};
+						}
 						turtle.anims.stop();
 						if (gameState.mapType === 'above') {
 							turtle.setTexture('enemies', 'Enemies-7');
@@ -2906,7 +2906,7 @@ class GameScene extends Phaser.Scene {
 							turtle.setTexture('enemies', 'Enemies-81');
 						} else if (gameState.mapType === 'castle') {
 							turtle.setTexture('enemies', 'Enemies-81');
-						};
+						}
 						gameState.sfx.kick.play();
 						turtle.setFlipY(true);
 						if (gameState.playerFacing === 'right') {
@@ -2915,7 +2915,7 @@ class GameScene extends Phaser.Scene {
 						} else {
 							turtle.setVelocityY(-200);
 							turtle.setVelocityX(-50);
-						};
+						}
 						turtle.body.checkCollision.none = true;
 						this.time.addEvent({
 							delay: 2000,
@@ -2924,13 +2924,13 @@ class GameScene extends Phaser.Scene {
 								turtle.destroy();
 							}
 						});
-					};
+					}
 				});
 				this.physics.add.collider(shell, gameState.redTurtles, (shell, turtle) => {
 					if (shell.body.velocity.x > 50 || shell.body.velocity.x < -50) {
 						if (gameState.multiplier <= 10) {
 							gameState.multiplier++;
-						};
+						}
 						gameState.multiplierTimer.reset({
 							delay: 1000,
 							repeat: -1,
@@ -2954,16 +2954,16 @@ class GameScene extends Phaser.Scene {
 								gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.mario.lives++;
-							};
+							}
 							gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 						} else {
 							if (gameState.multiplier < 10) {
 								gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.luigi.lives++;
-							};
+							}
 							gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-						};
+						}
 						turtle.anims.stop();
 						turtle.setTexture('enemies', 'Enemies-57');
 						gameState.sfx.kick.play();
@@ -2974,7 +2974,7 @@ class GameScene extends Phaser.Scene {
 						} else {
 							turtle.setVelocityY(-200);
 							turtle.setVelocityX(-50);
-						};
+						}
 						turtle.body.checkCollision.none = true;
 						this.time.addEvent({
 							delay: 2000,
@@ -2983,13 +2983,13 @@ class GameScene extends Phaser.Scene {
 								turtle.destroy();
 							}
 						});
-					};
+					}
 				});
 				this.physics.add.collider(shell, gameState.redParaturtles, (shell, turtle) => {
 					if (shell.body.velocity.x > 50 || shell.body.velocity.x < -50) {
 						if (gameState.multiplier <= 10) {
 							gameState.multiplier++;
-						};
+						}
 						gameState.multiplierTimer.reset({
 							delay: 1000,
 							repeat: -1,
@@ -3013,16 +3013,16 @@ class GameScene extends Phaser.Scene {
 								gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.mario.lives++;
-							};
+							}
 							gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 						} else {
 							if (gameState.multiplier < 10) {
 								gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 							} else {
 								gameState.character.luigi.lives++;
-							};
+							}
 							gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-						};
+						}
 						turtle.anims.stop();
 						turtle.setTexture('enemies', 'Enemies-57');
 						turtle.body.setAllowGravity(true);
@@ -3036,7 +3036,7 @@ class GameScene extends Phaser.Scene {
 								turtle.destroy();
 							}
 						});
-					};
+					}
 				});
 				this.physics.add.collider(gameState.fireball, shell, (fireball, shell) => {
 					gameState.sfx.bump.play();
@@ -3066,16 +3066,16 @@ class GameScene extends Phaser.Scene {
 							gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 						} else {
 							gameState.character.mario.lives++;
-						};
+						}
 						gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 					} else {
 						if (gameState.multiplier < 10) {
 							gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 						} else {
 							gameState.character.luigi.lives++;
-						};
+						}
 						gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-					};
+					}
 					shell.anims.stop();
 					if (gameState.mapType === 'above') {
 						shell.setTexture('enemies', 'Enemies-7');
@@ -3085,7 +3085,7 @@ class GameScene extends Phaser.Scene {
 						shell.setTexture('enemies', 'Enemies-81');
 					} else if (gameState.mapType === 'castle') {
 						shell.setTexture('enemies', 'Enemies-81');
-					};
+					}
 					shell.setFlipY(true);
 					if (gameState.playerFacing === 'right') {
 						shell.setVelocityY(-200);
@@ -3093,7 +3093,7 @@ class GameScene extends Phaser.Scene {
 					} else {
 						shell.setVelocityY(-200);
 						shell.setVelocityX(-50);
-					};
+					}
 					shell.body.checkCollision.none = true;
 					this.time.addEvent({
 						delay: 2000,
@@ -3141,16 +3141,16 @@ class GameScene extends Phaser.Scene {
 						gameState.character.mario.score += 100;
 					} else {
 						gameState.character.mario.lives++;
-					};
+					}
 					gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 				} else {
 					if (gameState.multiplier < 10) {
 						gameState.character.luigi.score += 100;
 					} else {
 						gameState.character.luigi.lives++;
-					};
+					}
 					gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-				};
+				}
 				turtle.anims.stop();
 				if (gameState.mapType === 'above') {
 					turtle.setTexture('enemies', 'Enemies-7');
@@ -3160,7 +3160,7 @@ class GameScene extends Phaser.Scene {
 					turtle.setTexture('enemies', 'Enemies-81');
 				} else if (gameState.mapType === 'castle') {
 					turtle.setTexture('enemies', 'Enemies-81');
-				};
+				}
 				turtle.setFlipY(true);
 				if (gameState.playerFacing === 'right') {
 					turtle.setVelocityY(-200);
@@ -3168,7 +3168,7 @@ class GameScene extends Phaser.Scene {
 				} else {
 					turtle.setVelocityY(-200);
 					turtle.setVelocityX(-50);
-				};
+				}
 				turtle.body.checkCollision.none = true;
 				this.time.addEvent({
 					delay: 2000,
@@ -3189,7 +3189,7 @@ class GameScene extends Phaser.Scene {
 				});
 			} else {
 				this.onHit();
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.player, gameState.redParaturtles, (player, turtle) => {
 			if (player.body.touching.down && !gameState.invincible) {
@@ -3198,7 +3198,7 @@ class GameScene extends Phaser.Scene {
 				turtle.body.stop();
 				if (gameState.multiplier <= 10) {
 					gameState.multiplier++;
-				};
+				}
 				gameState.multiplierTimer.reset({
 					delay: 1000,
 					repeat: -1,
@@ -3222,16 +3222,16 @@ class GameScene extends Phaser.Scene {
 						gameState.character.mario.score += (gameState.chainPoints[gameState.multiplier - 1]);
 					} else {
 						gameState.character.mario.lives++;
-					};
+					}
 					gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 				} else {
 					if (gameState.multiplier < 10) {
 						gameState.character.luigi.score += (gameState.chainPoints[gameState.multiplier - 1]);
 					} else {
 						gameState.character.luigi.lives++;
-					};
+					}
 					gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-				};
+				}
 				turtle.destroy();
 				turtle = gameState.redTurtles.create(turtle.x, turtle.y, 'enemies', 'Enemies-54');
 			} else if (gameState.invincible) {
@@ -3251,16 +3251,16 @@ class GameScene extends Phaser.Scene {
 						gameState.character.mario.score += 100;
 					} else {
 						gameState.character.mario.lives++;
-					};
+					}
 					gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 				} else {
 					if (gameState.multiplier < 10) {
 						gameState.character.luigi.score += 100;
 					} else {
 						gameState.character.luigi.lives++;
-					};
+					}
 					gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-				};
+				}
 				turtle.anims.stop();
 				turtle.setTexture('enemies', 'Enemies-57');
 				turtle.setFlipY(true);
@@ -3270,7 +3270,7 @@ class GameScene extends Phaser.Scene {
 				} else {
 					turtle.setVelocityY(-200);
 					turtle.setVelocityX(-50);
-				};
+				}
 				turtle.body.checkCollision.none = true;
 				this.time.addEvent({
 					delay: 2000,
@@ -3283,7 +3283,7 @@ class GameScene extends Phaser.Scene {
 				
 			} else {
 				this.onHit();
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.player, gameState.piranhaPlants, (player, plant) => {
 			if (gameState.invincible) {
@@ -3304,21 +3304,21 @@ class GameScene extends Phaser.Scene {
 						gameState.character.mario.score += 100;
 					} else {
 						gameState.character.mario.lives++;
-					};
+					}
 					gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 				} else {
 					if (gameState.multiplier < 10) {
 						gameState.character.luigi.score += 100;
 					} else {
 						gameState.character.luigi.lives++;
-					};
+					}
 					gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-				};
+				}
 			} else if (gameState.invulnerable) {
 
 			} else {
 				this.onHit();
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.player, gameState.redCheeps, (player, fish) => {
 			if (gameState.invincible) {
@@ -3338,16 +3338,16 @@ class GameScene extends Phaser.Scene {
 						gameState.character.mario.score += 100;
 					} else {
 						gameState.character.mario.lives++;
-					};
+					}
 					gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 				} else {
 					if (gameState.multiplier < 10) {
 						gameState.character.luigi.score += 100;
 					} else {
 						gameState.character.luigi.lives++;
-					};
+					}
 					gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-				};
+				}
 				fish.body.stop();
 				fish.body.setAllowGravity(true);
 				fish.anims.stop();
@@ -3378,16 +3378,16 @@ class GameScene extends Phaser.Scene {
 						gameState.character.mario.score += 100;
 					} else {
 						gameState.character.mario.lives++;
-					};
+					}
 					gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 				} else {
 					if (gameState.multiplier < 10) {
 						gameState.character.luigi.score += 100;
 					} else {
 						gameState.character.luigi.lives++;
-					};
+					}
 					gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-				};
+				}
 				fish.body.stop();
 				fish.anims.stop();
 				fish.setFlipY(true);
@@ -3404,7 +3404,7 @@ class GameScene extends Phaser.Scene {
 
 			} else {
 				this.onHit();
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.player, gameState.grayCheeps, (player, fish) => {
 			if (gameState.invincible) {
@@ -3424,16 +3424,16 @@ class GameScene extends Phaser.Scene {
 						gameState.character.mario.score += 100;
 					} else {
 						gameState.character.mario.lives++;
-					};
+					}
 					gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 				} else {
 					if (gameState.multiplier < 10) {
 						gameState.character.luigi.score += 100;
 					} else {
 						gameState.character.luigi.lives++;
-					};
+					}
 					gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-				};
+				}
 				fish.body.stop();
 				fish.body.setAllowGravity(true);
 				fish.anims.stop();
@@ -3451,7 +3451,7 @@ class GameScene extends Phaser.Scene {
 
 			} else {
 				this.onHit();
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.player, gameState.bloobers, (player, squid) => {
 			if (gameState.invincible) {
@@ -3472,21 +3472,21 @@ class GameScene extends Phaser.Scene {
 						gameState.character.mario.score += 100;
 					} else {
 						gameState.character.mario.lives++;
-					};
+					}
 					gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 				} else {
 					if (gameState.multiplier < 10) {
 						gameState.character.luigi.score += 100;
 					} else {
 						gameState.character.luigi.lives++;
-					};
+					}
 					gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-				};
+				}
 			} else if (gameState.invulnerable) {
 
 			} else {
 				this.onHit();
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.fireball, gameState.goombas, (fireball, goomba) => {
 			gameState.sfx.bump.play();
@@ -3516,16 +3516,16 @@ class GameScene extends Phaser.Scene {
 					gameState.character.mario.score += 100;
 				} else {
 					gameState.character.mario.lives++;
-				};
+				}
 				gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 			} else {
 				if (gameState.multiplier < 10) {
 					gameState.character.luigi.score += 100;
 				} else {
 					gameState.character.luigi.lives++;
-				};
+				}
 				gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-			};
+			}
 			goomba.setFlipY(true);
 			if (gameState.playerFacing === 'right') {
 				goomba.setVelocityY(-200);
@@ -3533,7 +3533,7 @@ class GameScene extends Phaser.Scene {
 			} else {
 				goomba.setVelocityY(-200);
 				goomba.setVelocityX(-50);
-			};
+			}
 			goomba.body.checkCollision.none = true;
 			this.time.addEvent({
 				delay: 2000,
@@ -3571,16 +3571,16 @@ class GameScene extends Phaser.Scene {
 					gameState.character.mario.score += 100;
 				} else {
 					gameState.character.mario.lives++;
-				};
+				}
 				gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 			} else {
 				if (gameState.multiplier < 10) {
 					gameState.character.luigi.score += 100;
 				} else {
 					gameState.character.luigi.lives++;
-				};
+				}
 				gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-			};
+			}
 			turtle.anims.stop();
 			if (gameState.mapType === 'above') {
 				turtle.setTexture('enemies', 'Enemies-7');
@@ -3590,7 +3590,7 @@ class GameScene extends Phaser.Scene {
 				turtle.setTexture('enemies', 'Enemies-81');
 			} else if (gameState.mapType === 'castle') {
 				turtle.setTexture('enemies', 'Enemies-81');
-			};
+			}
 			turtle.setFlipY(true);
 			if (gameState.playerFacing === 'right') {
 				turtle.setVelocityY(-200);
@@ -3598,7 +3598,7 @@ class GameScene extends Phaser.Scene {
 			} else {
 				turtle.setVelocityY(-200);
 				turtle.setVelocityX(-50);
-			};
+			}
 			turtle.body.checkCollision.none = true;
 			this.time.addEvent({
 				delay: 2000,
@@ -3636,16 +3636,16 @@ class GameScene extends Phaser.Scene {
 					gameState.character.mario.score += 100;
 				} else {
 					gameState.character.mario.lives++;
-				};
+				}
 				gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 			} else {
 				if (gameState.multiplier < 10) {
 					gameState.character.luigi.score += 100;
 				} else {
 					gameState.character.luigi.lives++;
-				};
+				}
 				gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-			};
+			}
 			turtle.anims.stop();
 			if (gameState.mapType === 'above') {
 				turtle.setTexture('enemies', 'Enemies-7');
@@ -3655,7 +3655,7 @@ class GameScene extends Phaser.Scene {
 				turtle.setTexture('enemies', 'Enemies-81');
 			} else if (gameState.mapType === 'castle') {
 				turtle.setTexture('enemies', 'Enemies-81');
-			};
+			}
 			turtle.setFlipY(true);
 			if (gameState.playerFacing === 'right') {
 				turtle.setVelocityY(-200);
@@ -3663,7 +3663,7 @@ class GameScene extends Phaser.Scene {
 			} else {
 				turtle.setVelocityY(-200);
 				turtle.setVelocityX(-50);
-			};
+			}
 			turtle.body.checkCollision.none = true;
 			this.time.addEvent({
 				delay: 2000,
@@ -3701,16 +3701,16 @@ class GameScene extends Phaser.Scene {
 					gameState.character.mario.score += 100;
 				} else {
 					gameState.character.mario.lives++;
-				};
+				}
 				gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 			} else {
 				if (gameState.multiplier < 10) {
 					gameState.character.luigi.score += 100;
 				} else {
 					gameState.character.luigi.lives++;
-				};
+				}
 				gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-			};
+			}
 			plant.destroy();
 		}, null, this);
 		this.physics.add.collider(gameState.fireball, gameState.redTurtles, (fireball, turtle) => {
@@ -3741,16 +3741,16 @@ class GameScene extends Phaser.Scene {
 					gameState.character.mario.score += 100;
 				} else {
 					gameState.character.mario.lives++;
-				};
+				}
 				gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 			} else {
 				if (gameState.multiplier < 10) {
 					gameState.character.luigi.score += 100;
 				} else {
 					gameState.character.luigi.lives++;
-				};
+				}
 				gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-			};
+			}
 			turtle.anims.stop();
 			turtle.setTexture('enemies', 'Enemies-57');
 			turtle.setFlipY(true);
@@ -3760,7 +3760,7 @@ class GameScene extends Phaser.Scene {
 			} else {
 				turtle.setVelocityY(-200);
 				turtle.setVelocityX(-50);
-			};
+			}
 			turtle.body.checkCollision.none = true;
 			this.time.addEvent({
 				delay: 2000,
@@ -3798,16 +3798,16 @@ class GameScene extends Phaser.Scene {
 					gameState.character.mario.score += 100;
 				} else {
 					gameState.character.mario.lives++;
-				};
+				}
 				gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 			} else {
 				if (gameState.multiplier < 10) {
 					gameState.character.luigi.score += 100;
 				} else {
 					gameState.character.luigi.lives++;
-				};
+				}
 				gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-			};
+			}
 			turtle.anims.stop();
 			turtle.setTexture('enemies', 'Enemies-57');
 			turtle.setFlipY(true);
@@ -3817,7 +3817,7 @@ class GameScene extends Phaser.Scene {
 			} else {
 				turtle.setVelocityY(-200);
 				turtle.setVelocityX(-50);
-			};
+			}
 			turtle.body.checkCollision.none = true;
 			this.time.addEvent({
 				delay: 2000,
@@ -3855,16 +3855,16 @@ class GameScene extends Phaser.Scene {
 					gameState.character.mario.score += 100;
 				} else {
 					gameState.character.mario.lives++;
-				};
+				}
 				gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 			} else {
 				if (gameState.multiplier < 10) {
 					gameState.character.luigi.score += 100;
 				} else {
 					gameState.character.luigi.lives++;
-				};
+				}
 				gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-			};
+			}
 			fish.body.stop();
 			fish.body.setAllowGravity(true);
 			fish.anims.stop();
@@ -3907,16 +3907,16 @@ class GameScene extends Phaser.Scene {
 					gameState.character.mario.score += 100;
 				} else {
 					gameState.character.mario.lives++;
-				};
+				}
 				gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 			} else {
 				if (gameState.multiplier < 10) {
 					gameState.character.luigi.score += 100;
 				} else {
 					gameState.character.luigi.lives++;
-				};
+				}
 				gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-			};
+			}
 			fish.body.stop();
 			fish.body.setAllowGravity(true);
 			fish.anims.stop();
@@ -3959,16 +3959,16 @@ class GameScene extends Phaser.Scene {
 					gameState.character.mario.score += 100;
 				} else {
 					gameState.character.mario.lives++;
-				};
+				}
 				gameState.scoreText.text = `MARIO\n${addDigits(gameState.character.mario.score, 6)}`;
 			} else {
 				if (gameState.multiplier < 10) {
 					gameState.character.luigi.score += 100;
 				} else {
 					gameState.character.luigi.lives++;
-				};
+				}
 				gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-			};
+			}
 			squid.body.stop();
 			squid.body.setAllowGravity(true);
 			squid.anims.stop();
@@ -3990,7 +3990,7 @@ class GameScene extends Phaser.Scene {
 		if (!gameState.sublevel) {
 			if (gameState.player.x > gameState.progress && gameState.player.x > 128 && gameState.player.x < (gameState.width - 128)) {
 				gameState.progress = gameState.player.x;
-			};
+			}
 			this.physics.world.bounds.x = gameState.progress - 128;
 			this.physics.world.bounds.width = gameState.width - (gameState.progress - 128);
 			
@@ -3998,21 +3998,21 @@ class GameScene extends Phaser.Scene {
 				this.cameras.main.stopFollow();
 			} else {
 				this.cameras.main.startFollow(gameState.player);
-			};
+			}
 		} else {
 			this.cameras.main.stopFollow();
-		};
+		}
 		
 		if (gameState.time === 0 && !gameState.courseCompleted) {
 			this.onDeath();
-		};
+		}
 
 		if (!gameState.fallDeath) {
 			if (gameState.player.y > config.height) {
 				this.onDeath();
 				gameState.fallDeath = true;
-			};
-		};
+			}
+		}
 
 		if (gameState.time === 100 && !gameState.courseCompleted) {
 			this.game.sound.stopAll();
@@ -4024,7 +4024,7 @@ class GameScene extends Phaser.Scene {
 					hurryTrack.play({ loop: true });
 				}
 			});
-		};
+		}
 
 		if (gameState.character.mario.active) {
 			if (gameState.character.mario.coins === 100) {
@@ -4032,15 +4032,15 @@ class GameScene extends Phaser.Scene {
 				gameState.character.mario.lives++;
 				gameState.coinText.text = `x${addDigits(gameState.character.mario.coins, 2)}`;
 				gameState.sfx.oneUp.play();
-			};
+			}
 		} else {
 			if (gameState.character.luigi.coins === 100) {
 				gameState.character.luigi.coins = 0;
 				gameState.character.luigi.lives++;
 				gameState.coinText.text = `x${addDigits(gameState.character.luigi.coins, 2)}`;
 				gameState.sfx.oneUp.play();
-			};
-		};
+			}
+		}
 	}
 
 	enemyBehavior() {
@@ -4048,30 +4048,30 @@ class GameScene extends Phaser.Scene {
 		Phaser.Actions.Call(gameState.goombas.getChildren(), function(goomba) {
 			if ((goomba.x - gameState.player.x) < 150) {
 				movement(goomba);
-			};
+			}
 			if (goomba.x < (gameState.player.x - 150)) {
 				goomba.destroy();
-			};
+			}
 		});
 
 // Turtles
 		Phaser.Actions.Call(gameState.turtles.getChildren(), function(turtle) {
 			if ((turtle.x - gameState.player.x) < 150) {
 				movement(turtle);
-			};
+			}
 			if (turtle.x < (gameState.player.x - 150)) {
 				turtle.destroy();
-			};
+			}
 		});
 
 // Red Turtles
 		Phaser.Actions.Call(gameState.redTurtles.getChildren(), function(turtle) {
 			if ((turtle.x - gameState.player.x) < 150) {
 				movement(turtle);
-			};
+			}
 			if (turtle.x < (gameState.player.x - 150)) {
 				turtle.destroy();
-			};
+			}
 		});
 
 // Fireballs
@@ -4080,14 +4080,14 @@ class GameScene extends Phaser.Scene {
 				fireball.destroy();
 			} else if (fireball.x < (gameState.player.x - 150)) {
 				fireball.destroy();
-			};
+			}
 		});
 
 // Bubbles
 		Phaser.Actions.Call(gameState.bubble.getChildren(), function(bubble) {
 			if (bubble.y <= 40) {
 				bubble.destroy();
-			};
+			}
 		});
 
 // Bloober
@@ -4096,12 +4096,12 @@ class GameScene extends Phaser.Scene {
 				bloober.body.enable = true;
 			} else if (bloober.x < (gameState.player.x - 150)) {
 				bloober.destroy();
-			};
+			}
 			if (bloober.y <= 45) {
 				bloober.setVelocityY(20, 0);
 			} else if (bloober.y > config.height - 32) {
 				bloober.setVelocityY(-60);
-			};
+			}
 		});
 
 // Red Cheep-Cheep
@@ -4109,28 +4109,28 @@ class GameScene extends Phaser.Scene {
 			Phaser.Actions.Call(gameState.redCheeps.getChildren(), function(cheep) {
 				if ((cheep.x - gameState.player.x) < 150) {
 					movement(cheep);
-				};
+				}
 				if (cheep.x < (gameState.player.x - 150)) {
 					cheep.destroy();
-				};
+				}
 			});
-		};
+		}
 
 // Gray Cheep-Cheep
 		Phaser.Actions.Call(gameState.grayCheeps.getChildren(), function(cheep) {
 			if ((cheep.x - gameState.player.x) < 150) {
 				cheep.setVelocityX(-10);
-			};
+			}
 			if (cheep.x < (gameState.player.x - 150)) {
 				cheep.destroy();
-			};
+			}
 		});
 
 // Podoboos
 		Phaser.Actions.Call(gameState.podoboos.getChildren(), function(podo) {
 			if (podo.x < (gameState.player.x - 150)) {
 				podo.destroy();
-			};
+			}
 		});
 
 // Bowser
@@ -4139,23 +4139,23 @@ class GameScene extends Phaser.Scene {
 				gameState.bowser.setVelocityX(30);
 			} else if (gameState.bowser.x > gameState.bowserLimitRight) {
 				gameState.bowser.setVelocityX(-30);
-			};
+			}
 	
 			if (gameState.bowser.x < gameState.player.x) {
 				gameState.bowser.setFlipX(true);
 			} else if (gameState.bowser.x > gameState.player.x) {
 				gameState.bowser.setFlipX(false);
-			};
+			}
 
 			if (gameState.bowser.y > config.height) {
 				if (!this.directionEvent.paused) {
 					this.directionEvent.paused = true;
 					this.jumpEvent.paused = true;
 					this.fireEvent.paused = true;
-				};
+				}
 				gameState.bowser.destroy();
-			};
-		};
+			}
+		}
 	}
 
 	controls() {
@@ -4183,8 +4183,8 @@ class GameScene extends Phaser.Scene {
 				this.anims.resumeAll();
 				this.physics.resume();
 				gameState.active = true;
-			};
-		};
+			}
+		}
 
 // Movement
 		if (gameState.keyboard) {
@@ -4196,7 +4196,7 @@ class GameScene extends Phaser.Scene {
 				} else {
 					gameState.player.setAccelerationX(-100);
 					gameState.player.setMaxVelocity(100, 500);
-				};
+				}
 			} else if (gameState.cursors.D.isDown) {
 				gameState.playerFacing = 'right';
 				if (gameState.cursors.Shift.isDown) {
@@ -4205,7 +4205,7 @@ class GameScene extends Phaser.Scene {
 				} else {
 					gameState.player.setAccelerationX(100);
 					gameState.player.setMaxVelocity(100, 500);
-				};
+				}
 			} else if (gameState.cursors.S.isDown) {
 				gameState.player.setAccelerationX(0);
 				if (gameState.character.mario.active && !gameState.firePower && !gameState.invincible) {
@@ -4213,13 +4213,13 @@ class GameScene extends Phaser.Scene {
 						gameState.player.setTexture('playerSprites', 'SuperMarioSprites-6');
 					} else {
 						gameState.player.setTexture('playerSprites', 'MarioSprites-0');
-					};
+					}
 				} else if (gameState.character.luigi.active && !gameState.firePower && !gameState.invincible) {
 					if (gameState.super) {
 						gameState.player.setTexture('playerSprites', 'SuperLuigiSprites-6');
 					} else {
 						gameState.player.setTexture('playerSprites', 'LuigiSprites-0');
-					};
+					}
 				} else if (gameState.firePower && !gameState.invincible) {
 					gameState.player.setTexture('playerSprites', 'FirePowerSprites-6');
 				} else if (gameState.invincible) {
@@ -4232,21 +4232,21 @@ class GameScene extends Phaser.Scene {
 							gameState.player.play('superInvincibleUWCrouch', true);
 						} else if (gameState.mapType === 'castle') {
 							gameState.player.play('superInvincibleCASTLECrouch', true);
-						};
+						}
 					} else {
 						gameState.player.play('invincibleOWIdle', true);
 					}
-				};
+				}
 			} else {
 				gameState.player.setAccelerationX(0);
-			};
+			}
 			
 			if (Phaser.Input.Keyboard.JustDown(gameState.cursors.Shift) && gameState.firePower && (gameState.fireball.getTotalUsed() < 2)) {
 				if (gameState.playerFacing === 'right') {
 					gameState.fireball.create((gameState.player.x + 10), (gameState.player.y - 19), 'fireball').setVelocityX(200).setBounce(1);
 				} else {
 					gameState.fireball.create((gameState.player.x - 10), (gameState.player.y - 19), 'fireball').setVelocityX(-200).setBounce(1);
-				};
+				}
 				gameState.animations = false;
 				gameState.player.play('fireShoot');
 				this.time.addEvent({
@@ -4258,7 +4258,7 @@ class GameScene extends Phaser.Scene {
 				});
 				gameState.fireball.playAnimation('fireballAnim');
 				gameState.sfx.fireball.play();
-			};
+			}
 
 			if (gameState.mapType !== 'water') {
 				if (Phaser.Input.Keyboard.JustDown(gameState.cursors.Space) && (gameState.player.body.touching.down || gameState.player.body.onFloor())) {
@@ -4266,24 +4266,23 @@ class GameScene extends Phaser.Scene {
 						gameState.player.setVelocityY(-375);
 					} else if (gameState.player.body.velocity.x > 100 || gameState.player.body.velocity.x < -100) {
 						gameState.player.setVelocityY(-425);
-					};
+					}
 					if (gameState.super) {
 						gameState.sfx.superJump.play();
 					} else {
 						gameState.sfx.littleJump.play();
-					};
-				};
+					}
+				}
 			} else {
 				if (Phaser.Input.Keyboard.JustDown(gameState.cursors.Space) && gameState.player.y >= 40) {
 					gameState.player.setVelocityY(-75);
 					gameState.sfx.stomp.play();
 					if (gameState.bubble.getTotalUsed() < 2) {
 						gameState.bubble.create(gameState.player.x, gameState.player.y - 24, 'sprites', 'Sprites-207').setVelocityY(-75);
-					};
-				};
-			};
-			
-		};
+					}
+				}
+			}
+		}
 
 		if (gameState.super && gameState.cursors.S.isUp) {
 			gameState.player.body.setSize(11, 32, true);
@@ -4291,7 +4290,7 @@ class GameScene extends Phaser.Scene {
 			gameState.player.body.setSize(11, 14, true).setOffset(2, 18);
 		} else {
 			gameState.player.body.setSize(11, 16, true);
-		};
+		}
 
 		//Animations
 		if (gameState.animations) {
@@ -4302,13 +4301,13 @@ class GameScene extends Phaser.Scene {
 							gameState.player.play('superMarioJump', true);
 						} else {
 							gameState.player.play('marioJump', true);
-						};
+						}
 					} else if (gameState.character.luigi.active && !gameState.firePower && !gameState.invincible) {
 						if (gameState.super) {
 							gameState.player.play('superLuigiJump', true);
 						} else {
 							gameState.player.play('luigiJump', true);
-						};
+						}
 					} else if (gameState.firePower && !gameState.invincible) {
 						gameState.player.play('fireJump', true);
 					} else if (gameState.invincible) {
@@ -4321,7 +4320,7 @@ class GameScene extends Phaser.Scene {
 								gameState.player.play('superInvincibleUWJump', true);
 							} else if (gameState.mapType === 'castle') {
 								gameState.player.play('superInvincibleCASTLEJump', true);
-							};
+							}
 						} else {
 							if (gameState.mapType === 'above') {
 								gameState.player.play('invincibleOWJump', true);
@@ -4331,10 +4330,10 @@ class GameScene extends Phaser.Scene {
 								gameState.player.play('invincibleUWJump', true);
 							} else if (gameState.mapType === 'castle') {
 								gameState.player.play('invincibleCASTLEJump', true);
-							};
-						};
-					};
-				};
+							}
+						}
+					}
+				}
 			} else {
 				if (gameState.player.body.velocity.y > 0) {
 					if (gameState.character.mario.active && !gameState.firePower && !gameState.invincible) {
@@ -4342,13 +4341,13 @@ class GameScene extends Phaser.Scene {
 							gameState.player.play('superMarioSwim', true);
 						} else {
 							gameState.player.play('marioSwim', true);
-						};
+						}
 					} else if (gameState.character.luigi.active && !gameState.firePower && !gameState.invincible) {
 						if (gameState.super) {
 							gameState.player.play('superLuigiSwim', true);
 						} else {
 							gameState.player.play('luigiSwim', true);
-						};
+						}
 					} else if (gameState.firePower && !gameState.invincible) {
 						gameState.player.play('fireSwim', true);
 					} else if (gameState.invincible) {
@@ -4356,21 +4355,21 @@ class GameScene extends Phaser.Scene {
 							gameState.player.play('superInvincibleUWSwim', true);
 						} else {
 							gameState.player.play('invincibleUWSwim', true);
-						};
-					};
+						}
+					}
 				} else if (gameState.player.body.velocity.y < 0) {
 					if (gameState.character.mario.active && !gameState.firePower && !gameState.invincible) {
 						if (gameState.super) {
 							gameState.player.play('superMarioSwimUp', true);
 						} else {
 							gameState.player.play('marioSwimUp', true);
-						};
+						}
 					} else if (gameState.character.luigi.active && !gameState.firePower && !gameState.invincible) {
 						if (gameState.super) {
 							gameState.player.play('superLuigiSwimUp', true);
 						} else {
 							gameState.player.play('luigiSwimUp', true);
-						};
+						}
 					} else if (gameState.firePower && !gameState.invincible) {
 						gameState.player.play('fireSwimUp', true);
 					} else if (gameState.invincible) {
@@ -4378,10 +4377,10 @@ class GameScene extends Phaser.Scene {
 							gameState.player.play('superInvincibleUWSwimUp', true);
 						} else {
 							gameState.player.play('invincibleUWSwimUp', true);
-						};
-					};
-				};
-			};
+						}
+					}
+				}
+			}
 	
 			if (gameState.player.body.velocity.x === 0 && gameState.player.body.velocity.y === 0 && gameState.cursors.S.isUp && (gameState.player.body.touching.down || gameState.player.body.onFloor())) {
 				if (gameState.character.mario.active && !gameState.firePower && !gameState.invincible) {
@@ -4389,13 +4388,13 @@ class GameScene extends Phaser.Scene {
 						gameState.player.setTexture('playerSprites', 'SuperMarioSprites-0');
 					} else {
 						gameState.player.setTexture('playerSprites', 'MarioSprites-0');
-					};
+					}
 				} else if (gameState.character.luigi.active && !gameState.firePower && !gameState.invincible) {
 					if (gameState.super) {
 						gameState.player.setTexture('playerSprites', 'SuperLuigiSprites-0');
 					} else {
 						gameState.player.setTexture('playerSprites', 'LuigiSprites-0');
-					};
+					}
 				} else if (gameState.firePower && !gameState.invincible) {
 					gameState.player.setTexture('playerSprites', 'FirePowerSprites-0');
 				} else if (gameState.invincible) {
@@ -4408,7 +4407,7 @@ class GameScene extends Phaser.Scene {
 							gameState.player.play('superInvincibleUWIdle', true);
 						} else if (gameState.mapType === 'castle') {
 							gameState.player.play('superInvincibleCASTLEIdle', true);
-						};
+						}
 					} else {
 						if (gameState.mapType === 'above') {
 							gameState.player.play('invincibleOWIdle', true);
@@ -4418,22 +4417,22 @@ class GameScene extends Phaser.Scene {
 							gameState.player.play('invincibleUWIdle', true);
 						} else if (gameState.mapType === 'castle') {
 							gameState.player.play('invincibleCASTLEIdle', true);
-						};
-					};
-				};
+						}
+					}
+				}
 			} else if ((gameState.player.body.velocity.x > 0 && gameState.player.body.velocity.x <= 100 && (gameState.player.body.touching.down || gameState.player.body.onFloor())) || (gameState.player.body.velocity.x < 0 && gameState.player.body.velocity.x >= -100 && (gameState.player.body.touching.down || gameState.player.body.onFloor()))) {
 				if (gameState.character.mario.active && !gameState.firePower && !gameState.invincible) {
 					if (gameState.super) {
 						gameState.player.play('superMarioWalk', true);
 					} else {
 						gameState.player.play('marioWalk', true);
-					};
+					}
 				} else if (gameState.character.luigi.active && !gameState.firePower && !gameState.invincible) {
 					if (gameState.super) {
 						gameState.player.play('superLuigiWalk', true);
 					} else {
 						gameState.player.play('luigiWalk', true);
-					};
+					}
 				} else if (gameState.firePower && !gameState.invincible) {
 					gameState.player.play('fireWalk', true);
 				} else if (gameState.invincible) {
@@ -4446,7 +4445,7 @@ class GameScene extends Phaser.Scene {
 							gameState.player.play('superInvincibleUWWalk', true);
 						} else if (gameState.mapType === 'castle') {
 							gameState.player.play('superInvincibleCASTLEWalk', true);
-						};
+						}
 					} else {
 						if (gameState.mapType === 'above') {
 							gameState.player.play('invincibleOWWalk', true);
@@ -4456,22 +4455,22 @@ class GameScene extends Phaser.Scene {
 							gameState.player.play('invincibleUWWalk', true);
 						} else if (gameState.mapType === 'castle') {
 							gameState.player.play('invincibleCASTLEWalk', true);
-						};
-					};
-				};
+						}
+					}
+				}
 			} else if ((gameState.player.body.velocity.x > 100 && (gameState.player.body.touching.down || gameState.player.body.onFloor())) || (gameState.player.body.velocity.x < -100 && (gameState.player.body.touching.down || gameState.player.body.onFloor()))) {
 				if (gameState.character.mario.active && !gameState.firePower && !gameState.invincible) {
 					if (gameState.super) {
 						gameState.player.play('superMarioSprint', true);
 					} else {
 						gameState.player.play('marioSprint', true);
-					};
+					}
 				} else if (gameState.character.luigi.active && !gameState.firePower && !gameState.invincible) {
 					if (gameState.super) {
 						gameState.player.play('superLuigiSprint', true);
 					} else {
 						gameState.player.play('luigiSprint', true);
-					};
+					}
 				} else if (gameState.firePower && !gameState.invincible) {
 					gameState.player.play('fireSprint', true);
 				} else if (gameState.invincible) {
@@ -4484,7 +4483,7 @@ class GameScene extends Phaser.Scene {
 							gameState.player.play('superInvincibleUWSprint', true);
 						} else if (gameState.mapType === 'castle') {
 							gameState.player.play('superInvincibleCASTLESprint', true);
-						};
+						}
 					} else {
 						if (gameState.mapType === 'above') {
 							gameState.player.play('invincibleOWSprint', true);
@@ -4494,10 +4493,10 @@ class GameScene extends Phaser.Scene {
 							gameState.player.play('invincibleUWSprint', true);
 						} else if (gameState.mapType === 'castle') {
 							gameState.player.play('invincibleCASTLESprint', true);
-						};
-					};
-				};
-			};
+						}
+					}
+				}
+			}
 	
 			if (gameState.playerFacing === 'right') {
 				gameState.player.setFlipX(false);
@@ -4507,13 +4506,13 @@ class GameScene extends Phaser.Scene {
 							gameState.player.setTexture('playerSprites', 'SuperMarioSprites-4');
 						} else {
 							gameState.player.setTexture('playerSprites', 'MarioSprites-4');
-						};
+						}
 					} else if (gameState.character.luigi.active && !gameState.firePower && !gameState.invincible) {
 						if (gameState.super) {
 							gameState.player.setTexture('playerSprites', 'SuperLuigiSprites-4');
 						} else {
 							gameState.player.setTexture('playerSprites', 'LuigiSprites-4');
-						};
+						}
 					} else if (gameState.firePower && !gameState.invincible) {
 						gameState.player.setTexture('playerSprites', 'FirePowerSprites-4');
 					} else if (gameState.invincible) {
@@ -4526,7 +4525,7 @@ class GameScene extends Phaser.Scene {
 								gameState.player.play('superInvincibleUWSkid', true);
 							} else if (gameState.mapType === 'castle') {
 								gameState.player.play('superInvincibleCASTLESkid', true);
-							};
+							}
 						} else {
 							if (gameState.mapType === 'above') {
 								gameState.player.play('invincibleOWSkid', true);
@@ -4536,10 +4535,10 @@ class GameScene extends Phaser.Scene {
 								gameState.player.play('invincibleUWSkid', true);
 							} else if (gameState.mapType === 'castle') {
 								gameState.player.play('invincibleCASTLESkid', true);
-							};
-						};
-					};
-				};
+							}
+						}
+					}
+				}
 			} else if (gameState.playerFacing === 'left' ) {
 				gameState.player.setFlipX(true);
 				if (gameState.player.body.velocity.x > 0 && (gameState.player.body.touching.down || gameState.player.body.onFloor())) {
@@ -4548,13 +4547,13 @@ class GameScene extends Phaser.Scene {
 							gameState.player.setTexture('playerSprites', 'SuperMarioSprites-4');
 						} else {
 							gameState.player.setTexture('playerSprites', 'MarioSprites-4');
-						};
+						}
 					} else if (gameState.character.luigi.active && !gameState.firePower && !gameState.invincible) {
 						if (gameState.super) {
 							gameState.player.setTexture('playerSprites', 'SuperLuigiSprites-4');
 						} else {
 							gameState.player.setTexture('playerSprites', 'LuigiSprites-4');
-						};
+						}
 					} else if (gameState.firePower && !gameState.invincible) {
 						gameState.player.setTexture('playerSprites', 'FirePowerSprites-4');
 					} else if (gameState.invincible) {
@@ -4567,7 +4566,7 @@ class GameScene extends Phaser.Scene {
 								gameState.player.play('superInvincibleUWSkid', true);
 							} else if (gameState.mapType === 'castle') {
 								gameState.player.play('superInvincibleCASTLESkid', true);
-							};
+							}
 						} else {
 							if (gameState.mapType === 'above') {
 								gameState.player.play('invincibleOWSkid', true);
@@ -4577,12 +4576,12 @@ class GameScene extends Phaser.Scene {
 								gameState.player.play('invincibleUWSkid', true);
 							} else if (gameState.mapType === 'castle') {
 								gameState.player.play('invincibleCASTLESkid', true);
-							};
-						};
-					};
-				};
-			};
-		};
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 
 	createHUD() {
@@ -4599,7 +4598,7 @@ class GameScene extends Phaser.Scene {
 			gameState.hudCoin.anims.play('hudCoinAnim', true);
 			gameState.coinText = this.add.bitmapText(100, 22, 'font', `x${addDigits(gameState.character.luigi.coins, 2)}`, 8).setScrollFactor(0);
 			this.add.bitmapText(145, 14, 'font', `WORLD\n ${gameState.character.luigi.world}-${gameState.character.luigi.level}`, 8).setScrollFactor(0);
-		};
+		}
 
 // Timer
 		gameState.timer = this.add.bitmapText(200, 14, 'font', `TIME`, 8).setScrollFactor(0);
@@ -4629,11 +4628,7 @@ class GameScene extends Phaser.Scene {
 		gameState.player.setCollideWorldBounds(false);
 		gameState.timedEvent.paused = true;
 		if (gameState.character.mario.active) {
-			if (gameState.player.x > gameState.checkpoint) {
-				gameState.character.mario.checkpointPassed = true;
-			} else {
-				gameState.character.mario.checkpointPassed = false;
-			};
+			gameState.character.mario.checkpointPassed = gameState.player.x > gameState.checkpoint;
 			gameState.player.setTexture('playerSprites', 'MarioSprites-6').setSize(16, 16);
 			if (gameState.character.mario.lives > 1) {
 				this.time.addEvent({
@@ -4659,13 +4654,9 @@ class GameScene extends Phaser.Scene {
 						this.scene.start('GameOverScene');
 					}
 				});
-			};
+			}
 		} else {
-			if (gameState.player.x > gameState.checkpoint) {
-				gameState.character.luigi.checkpointPassed = true;
-			} else {
-				gameState.character.luigi.checkpointPassed = false;
-			};
+			gameState.character.luigi.checkpointPassed = gameState.player.x > gameState.checkpoint;
 			gameState.player.setTexture('playerSprites', 'LuigiSprites-6').setSize(16, 16);
 			if (gameState.character.luigi.lives > 1) {
 				this.time.addEvent({
@@ -4675,7 +4666,7 @@ class GameScene extends Phaser.Scene {
 						if (gameState.character.mario.lives >= 1) {
 							gameState.character.mario.active = true;
 							gameState.character.luigi.active = false;
-						};
+						}
 						gameState.character.luigi.lives -= 1;
 						gameState.super = false;
 						gameState.firePower = false;
@@ -4691,8 +4682,8 @@ class GameScene extends Phaser.Scene {
 						this.scene.start('GameOverScene');
 					}
 				});
-			};
-		};
+			}
+		}
 	}
 
 	onHit() {
@@ -4732,7 +4723,7 @@ class GameScene extends Phaser.Scene {
 				
 			} else {
 				this.onDeath();
-			};
+			}
 		} else {
 			if (gameState.super || gameState.firePower) {
 				gameState.invulnerable = true;
@@ -4769,8 +4760,8 @@ class GameScene extends Phaser.Scene {
 				
 			} else {
 				this.onDeath();
-			};
-		};
+			}
+		}
 	}
 	
 	portalEntrance(direction, scene, x) {
@@ -4778,7 +4769,7 @@ class GameScene extends Phaser.Scene {
 			gameState.character.mario.progress = x || 32;
 		} else {
 			gameState.character.luigi.progress = x || 32;
-		};
+		}
 		if (direction === 'down' && gameState.cursors.S.isDown) {
 			this.tweens.add({
 				targets: gameState.player,
@@ -4842,7 +4833,7 @@ class GameScene extends Phaser.Scene {
 						gameState.player.depth = 0;
 					}
 				});
-			} else if (direction = 'up') {
+			} else if (direction === 'up') {
 				this.tweens.add({
 					targets: gameState.player,
 					y: '+=32',
@@ -4861,7 +4852,7 @@ class GameScene extends Phaser.Scene {
 						gameState.player.depth = 0;
 					}
 				});
-			};
+			}
 		} else {
 			gameState.player.y = y;
 			if (direction === 'down') {
@@ -4883,7 +4874,7 @@ class GameScene extends Phaser.Scene {
 						gameState.player.depth = 0;
 					}
 				});
-			} else if (direction = 'up') {
+			} else if (direction === 'up') {
 				this.tweens.add({
 					targets: gameState.player,
 					y: '+=16',
@@ -4902,8 +4893,8 @@ class GameScene extends Phaser.Scene {
 						gameState.player.depth = 0;
 					}
 				});
-			};
-		};
+			}
+		}
 		if (direction === 'right') {
 			this.tweens.add({
 				targets: gameState.player,
@@ -4934,7 +4925,7 @@ class GameScene extends Phaser.Scene {
 					gameState.player.depth = -2;
 				}
 			});
-		};
+		}
 	}
 
 	flagpoleScene(x, y) {
@@ -4960,8 +4951,8 @@ class GameScene extends Phaser.Scene {
 						this.jumpEvent.paused = true;
 						this.fireEvent.paused = true;
 						gameState.sfx.bowserFalls.play();
-					};
-				};
+					}
+				}
 				this.time.addEvent({
 					delay: 500,
 					repeat: 0,
@@ -4984,13 +4975,13 @@ class GameScene extends Phaser.Scene {
 												gameState.player.setTexture('playerSprites', 'SuperMarioSprites-0');
 											} else {
 												gameState.player.setTexture('playerSprites', 'MarioSprites-0');
-											};
+											}
 										} else if (gameState.character.luigi.active && !gameState.firePower && !gameState.invincible) {
 											if (gameState.super) {
 												gameState.player.setTexture('playerSprites', 'SuperLuigiSprites-0');
 											} else {
 												gameState.player.setTexture('playerSprites', 'LuigiSprites-0');
-											};
+											}
 										} else if (gameState.firePower && !gameState.invincible) {
 											gameState.player.setTexture('playerSprites', 'FirePowerSprites-0');
 										} else if (gameState.invincible) {
@@ -5003,7 +4994,7 @@ class GameScene extends Phaser.Scene {
 													gameState.player.play('superInvincibleUWIdle', true);
 												} else if (gameState.mapType === 'castle') {
 													gameState.player.play('superInvincibleCASTLEIdle', true);
-												};
+												}
 											} else {
 												if (gameState.mapType === 'above') {
 													gameState.player.play('invincibleOWIdle', true);
@@ -5013,9 +5004,9 @@ class GameScene extends Phaser.Scene {
 													gameState.player.play('invincibleUWIdle', true);
 												} else if (gameState.mapType === 'castle') {
 													gameState.player.play('invincibleCASTLEIdle', true);
-												};
-											};
-										};
+												}
+											}
+										}
 										this.add.bitmapText(65, 80, 'font', `THANK YOU MARIO!`, 8).setScrollFactor(0);
 										this.time.addEvent({
 											delay: 2000,
@@ -5044,7 +5035,7 @@ class GameScene extends Phaser.Scene {
 					} else {
 						gameState.character.luigi.score += 100;
 						gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-					};
+					}
 					this.scoreNotification = this.add.bitmapText(flagpole.x + 3, flagpole.y, 'font6', '100', 6).setOrigin(0, 1);
 				} else if (gameState.player.y > flagpole.y - 57 && gameState.player.y < flagpole.y - 18) {
 					if (gameState.character.mario.active) {
@@ -5053,7 +5044,7 @@ class GameScene extends Phaser.Scene {
 					} else {
 						gameState.character.luigi.score += 400;
 						gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-					};
+					}
 					this.scoreNotification = this.add.bitmapText(flagpole.x + 3, flagpole.y, 'font6', '400', 6).setOrigin(0, 1);
 				} else if (gameState.player.y > flagpole.y - 81 && gameState.player.y < flagpole.y - 58) {
 					if (gameState.character.mario.active) {
@@ -5062,7 +5053,7 @@ class GameScene extends Phaser.Scene {
 					} else {
 						gameState.character.luigi.score += 800;
 						gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-					};
+					}
 					this.scoreNotification = this.add.bitmapText(flagpole.x + 3, flagpole.y, 'font6', '800', 6).setOrigin(0, 1);
 				} else if (gameState.player.y > flagpole.y - 127 && gameState.player.y < flagpole.y - 82) {
 					if (gameState.character.mario.active) {
@@ -5071,7 +5062,7 @@ class GameScene extends Phaser.Scene {
 					} else {
 						gameState.character.luigi.score += 2000;
 						gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-					};
+					}
 					this.scoreNotification = this.add.bitmapText(flagpole.x + 3, flagpole.y, 'font6', '2000', 6).setOrigin(0, 1);
 				} else if (gameState.player.y > flagpole.y - 153 && gameState.player.y < flagpole.y - 128) {
 					if (gameState.character.mario.active) {
@@ -5080,7 +5071,7 @@ class GameScene extends Phaser.Scene {
 					} else {
 						gameState.character.luigi.score += 5000;
 						gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-					};
+					}
 					this.scoreNotification = this.add.bitmapText(flagpole.x + 3, flagpole.y, 'font6', '5000', 6).setOrigin(0, 1);
 				}
 				this.tweens.add({
@@ -5118,13 +5109,13 @@ class GameScene extends Phaser.Scene {
 								gameState.player.play('superMarioClimb', true);
 							} else {
 								gameState.player.play('marioClimb', true);
-							};
+							}
 						} else if (gameState.character.luigi.active && !gameState.firePower) {
 							if (gameState.super) {
 								gameState.player.play('superLuigiClimb', true);
 							} else {
 								gameState.player.play('luigiClimb', true);
-							};
+							}
 						} else {
 							gameState.player.play('fireClimb', true);
 						}
@@ -5139,7 +5130,7 @@ class GameScene extends Phaser.Scene {
 							} else {
 								gameState.player.setTexture('playerSprites', 'MarioSprites-8');
 								gameState.player.x = gameState.player.x + 3;
-							};
+							}
 						} else if (gameState.character.luigi.active && !gameState.firePower) {
 							if (gameState.super) {
 								gameState.player.setTexture('playerSprites', 'SuperLuigiSprites-8');
@@ -5147,11 +5138,11 @@ class GameScene extends Phaser.Scene {
 							} else {
 								gameState.player.setTexture('playerSprites', 'LuigiSprites-8');
 								gameState.player.x = gameState.player.x + 3;
-							};
+							}
 						} else {
 							gameState.player.setTexture('playerSprites', 'FirePowerSprites-8');
 							gameState.player.x = gameState.player.x + 8;
-						};
+						}
 						gameState.player.setFlipX(true).setOrigin(0, 1);
 						this.time.addEvent({
 							delay: 600,
@@ -5179,7 +5170,7 @@ class GameScene extends Phaser.Scene {
 					}
 				});
 			}, null, this);
-		};
+		}
 	}
 	
 	castleFanfare(size, x, y) {
@@ -5196,7 +5187,7 @@ class GameScene extends Phaser.Scene {
 				duration: 500,
 				repeat: 0
 			});
-		};
+		}
 		if (gameState.fireworks === 1) {
 			this.time.addEvent({
 				delay: 500,
@@ -5211,7 +5202,7 @@ class GameScene extends Phaser.Scene {
 					} else {
 						gameState.character.luigi.score += 500;
 						gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-					};
+					}
 					this.time.addEvent({
 						delay: 750,
 						loop: false,
@@ -5236,7 +5227,7 @@ class GameScene extends Phaser.Scene {
 					} else {
 						gameState.character.luigi.score += 500;
 						gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-					};
+					}
 					this.time.addEvent({
 						delay: 750,
 						loop: false,
@@ -5251,7 +5242,7 @@ class GameScene extends Phaser.Scene {
 							} else {
 								gameState.character.luigi.score += 500;
 								gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-							};
+							}
 							this.time.addEvent({
 								delay: 750,
 								loop: false,
@@ -5266,7 +5257,7 @@ class GameScene extends Phaser.Scene {
 									} else {
 										gameState.character.luigi.score += 500;
 										gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-									};
+									}
 									this.time.addEvent({
 										delay: 750,
 										loop: false,
@@ -5295,7 +5286,7 @@ class GameScene extends Phaser.Scene {
 					} else {
 						gameState.character.luigi.score += 500;
 						gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-					};
+					}
 					this.time.addEvent({
 						delay: 750,
 						loop: false,
@@ -5310,7 +5301,7 @@ class GameScene extends Phaser.Scene {
 							} else {
 								gameState.character.luigi.score += 500;
 								gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-							};
+							}
 							this.time.addEvent({
 								delay: 750,
 								loop: false,
@@ -5325,7 +5316,7 @@ class GameScene extends Phaser.Scene {
 									} else {
 										gameState.character.luigi.score += 500;
 										gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-									};
+									}
 									this.time.addEvent({
 										delay: 750,
 										loop: false,
@@ -5340,7 +5331,7 @@ class GameScene extends Phaser.Scene {
 											} else {
 												gameState.character.luigi.score += 500;
 												gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-											};
+											}
 											this.time.addEvent({
 												delay: 750,
 												loop: false,
@@ -5355,7 +5346,7 @@ class GameScene extends Phaser.Scene {
 													} else {
 														gameState.character.luigi.score += 500;
 														gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-													};
+													}
 													this.time.addEvent({
 														delay: 750,
 														loop: false,
@@ -5370,7 +5361,7 @@ class GameScene extends Phaser.Scene {
 															} else {
 																gameState.character.luigi.score += 500;
 																gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-															};
+															}
 															this.time.addEvent({
 																delay: 750,
 																loop: false,
@@ -5399,7 +5390,7 @@ class GameScene extends Phaser.Scene {
 					this.scene.start('LoadScene');
 				}
 			});
-		};
+		}
 	}
 
 	addElevators(x, y, length, delay, direction, loop, loose) {
@@ -5409,7 +5400,7 @@ class GameScene extends Phaser.Scene {
 		});
 		for (let i = 0; i < length * 16; i += 16) {
 			elevator.create(x + i, y, 'sprites', 'Sprites-152').setFrictionX(1).setSize(16, 8).setOffset(0, 0);
-		};
+		}
 		if (!loose) {
 			this.physics.add.collider(gameState.player, elevator);
 			if (direction === 'up' && !loop) {
@@ -5512,15 +5503,15 @@ class GameScene extends Phaser.Scene {
 					},
 					repeat: -1
 				});
-			};
+			}
 		} else if (loose) {
 			this.physics.add.collider(gameState.player, elevator, () => {
 				elevator.setVelocityY(30);
 				if (gameState.cursors.Space.isDown || Phaser.Input.Keyboard.JustDown(gameState.cursors.Space)) {
 					elevator.setVelocityY(0);
-				};
+				}
 			}, null, this);
-		};
+		}
 	}
 
 	turtleBox(x, y, width) {
@@ -5539,7 +5530,7 @@ class GameScene extends Phaser.Scene {
 		});
 		for (let i = 0; i < length * 8; i += 8) {
 			fireShaft.create(x + i, y, 'fireball');
-		};
+		}
 		this.time.addEvent({
 			delay: 100,
 			callback: () => {
@@ -5554,7 +5545,7 @@ class GameScene extends Phaser.Scene {
 
 			} else {
 				this.onHit();
-			};
+			}
 		}, null, this);
 	}
 
@@ -5567,7 +5558,7 @@ class GameScene extends Phaser.Scene {
 		this.physics.add.collider(gameState.background, gameState.bowser);
 		this.physics.add.overlap(gameState.player, gameState.bowser, () => {
 			if (gameState.invincible) {
-				let scoreNotification = this.add.bitmapText(bowser.x, bowser.y - 20, 'font6', '5000', 6).setOrigin(0, 1);
+				let scoreNotification = this.add.bitmapText(gameState.bowser.x, gameState.bowser.y - 20, 'font6', '5000', 6).setOrigin(0, 1);
 				this.tweens.add({
 					targets: scoreNotification,
 					y: '-=20',
@@ -5584,26 +5575,26 @@ class GameScene extends Phaser.Scene {
 				} else {
 					gameState.character.luigi.score += 5000;
 					gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-				};
-				bowser.anims.stop();
+				}
+				gameState.bowser.anims.stop();
 				if (gameState.mapType === 'above') {
-					bowser.setTexture('enemies', 'Enemies-0');
+					gameState.bowser.setTexture('enemies', 'Enemies-0');
 				} else if (gameState.mapType === 'under') {
-					bowser.setTexture('enemies', 'Enemies-25');
+					gameState.bowser.setTexture('enemies', 'Enemies-25');
 				} else if (gameState.mapType === 'water') {
-					bowser.setTexture('enemies', 'Enemies-0');
+					gameState.bowser.setTexture('enemies', 'Enemies-0');
 				} else if (gameState.mapType === 'castle') {
-					bowser.setTexture('enemies', 'Enemies-50');
-				};
-				bowser.setFlipY(true);
+					gameState.bowser.setTexture('enemies', 'Enemies-50');
+				}
+				gameState.bowser.setFlipY(true);
 				if (gameState.playerFacing === 'right') {
-					bowser.setVelocityY(-200);
-					bowser.setVelocityX(50);
+					gameState.bowser.setVelocityY(-200);
+					gameState.bowser.setVelocityX(50);
 				} else {
-					bowser.setVelocityY(-200);
-					bowser.setVelocityX(-50);
-				};
-				bowser.body.checkCollision.none = true;
+					gameState.bowser.setVelocityY(-200);
+					gameState.bowser.setVelocityX(-50);
+				}
+				gameState.bowser.body.checkCollision.none = true;
 				this.directionEvent.paused = true;
 				this.jumpEvent.paused = true;
 				this.fireEvent.paused = true;
@@ -5611,7 +5602,7 @@ class GameScene extends Phaser.Scene {
 
 			} else {
 				this.onHit();
-			};
+			}
 		}, null, this);
 		this.physics.add.collider(gameState.fireball, gameState.bowser, (bowser, fireball) => {
 			gameState.sfx.bump.play();
@@ -5627,7 +5618,7 @@ class GameScene extends Phaser.Scene {
 			});
 			this.fireHitCount++;
 			if (this.fireHitCount >= 6) {
-				let scoreNotification = this.add.bitmapText(bowser.x, bowser.y - 20, 'font6', '5000', 6).setOrigin(0, 1);
+				let scoreNotification = this.add.bitmapText(gameState.bowser.x, gameState.bowser.y - 20, 'font6', '5000', 6).setOrigin(0, 1);
 				this.tweens.add({
 					targets: scoreNotification,
 					y: '-=20',
@@ -5644,30 +5635,30 @@ class GameScene extends Phaser.Scene {
 				} else {
 					gameState.character.luigi.score += 5000;
 					gameState.scoreText.text = `LUIGI\n${addDigits(gameState.character.luigi.score, 6)}`;
-				};
-				bowser.anims.stop();
+				}
+				gameState.bowser.anims.stop();
 				if (gameState.mapType === 'above') {
-					bowser.setTexture('enemies', 'Enemies-0');
+					gameState.bowser.setTexture('enemies', 'Enemies-0');
 				} else if (gameState.mapType === 'under') {
-					bowser.setTexture('enemies', 'Enemies-25');
+					gameState.bowser.setTexture('enemies', 'Enemies-25');
 				} else if (gameState.mapType === 'water') {
-					bowser.setTexture('enemies', 'Enemies-0');
+					gameState.bowser.setTexture('enemies', 'Enemies-0');
 				} else if (gameState.mapType === 'castle') {
-					bowser.setTexture('enemies', 'Enemies-50');
-				};
-				bowser.setFlipY(true);
+					gameState.bowser.setTexture('enemies', 'Enemies-50');
+				}
+				gameState.bowser.setFlipY(true);
 				if (gameState.playerFacing === 'right') {
-					bowser.setVelocityY(-200);
-					bowser.setVelocityX(50);
+					gameState.bowser.setVelocityY(-200);
+					gameState.bowser.setVelocityX(50);
 				} else {
-					bowser.setVelocityY(-200);
-					bowser.setVelocityX(-50);
-				};
-				bowser.body.checkCollision.none = true;
+					gameState.bowser.setVelocityY(-200);
+					gameState.bowser.setVelocityX(-50);
+				}
+				gameState.bowser.body.checkCollision.none = true;
 				this.directionEvent.paused = true;
 				this.jumpEvent.paused = true;
 				this.fireEvent.paused = true;
-			};
+			}
 		}, null, this)
 		gameState.bowserLimitLeft = x - 56;
 		gameState.bowserLimitRight = x + 23;
@@ -5682,7 +5673,7 @@ class GameScene extends Phaser.Scene {
 				} else {
 					gameState.bowser.setVelocityX(30);
 					gameState.bowser.play('bowserWalk');
-				};
+				}
 			}
 		});
 		this.jumpEvent = this.time.addEvent({
@@ -5693,7 +5684,7 @@ class GameScene extends Phaser.Scene {
 				if (jump === 1) {
 					gameState.bowser.setVelocityY(-175);
 					gameState.bowser.play('bowserWalk');
-				};
+				}
 			}
 		});
 		this.fireEvent = this.time.addEvent({
@@ -5714,15 +5705,15 @@ class GameScene extends Phaser.Scene {
 						gameState.bowser.play('bowserFireShot');
 						gameState.fireBlast.depth = -1;
 						gameState.fireBlast.body.setAllowGravity(false).setImmovable(true);
-					};
+					}
 					this.physics.add.overlap(gameState.player, gameState.fireBlast, () => {
 						if (gameState.invulnerable || gameState.invincible) {
 
 						} else {
 							this.onHit();
-						};
+						}
 					}, null, this);
-				};
+				}
 			}
 		});
 	}
@@ -5739,8 +5730,8 @@ class GameScene extends Phaser.Scene {
 				} else if (obj.anims.getProgress() === 1 && gameState.cursors.Space.isDown) {
 					player.setVelocityY(-600);
 					player.setMaxVelocity(175, 600);
-				};
-			};
+				}
+			}
 		}, null, this);
 	}
 }
@@ -5772,7 +5763,7 @@ class World1Level1 extends GameScene {
 		if (gameState.portalExit) {
 			gameState.portalExit = false;
 			this.portalExit('down', 192);
-		};
+		}
 		if (gameState.time === 0 && gameState.courseCompleted && !gameState.fanfare) {
 			this.castleFanfare(true, 456, 208);
 		}
@@ -5785,8 +5776,8 @@ class World1Level1 extends GameScene {
 				gameState.character.luigi.world = 1;
 				gameState.character.luigi.level = 2;
 				gameState.currentScene = 'World1Level2Start';
-			};
-		};
+			}
+		}
 	}
 }
 
@@ -5832,7 +5823,7 @@ class World1Level2Start extends GameScene {
 			gameState.character.mario.progress = 48;
 		} else {
 			gameState.character.luigi.progress = 48;
-		};
+		}
 		gameState.mapType = 'above';
 		gameState.sublevel = false;
 		gameState.timeReset = true;
@@ -5844,14 +5835,14 @@ class World1Level2Start extends GameScene {
 				gameState.currentScene = 'World1Level2';
 			} else if (gameState.character.mario.world === 2 && gameState.character.mario.level === 2) {
 				gameState.currentScene = 'World2Level2';
-			};
+			}
 		} else if (gameState.character.luigi.active) {
 			if (gameState.character.luigi.world === 1 && gameState.character.luigi.level === 2) {
 				gameState.currentScene = 'World1Level2';
 			} else if (gameState.character.luigi.world === 2 && gameState.character.luigi.level === 2) {
 				gameState.currentScene = 'World2Level2';
-			};
-		};
+			}
+		}
 		let portalEntrance = this.add.rectangle(160, 196, 1, 3);
 		this.physics.add.existing(portalEntrance, [true]);
 		this.physics.add.overlap(gameState.player, portalEntrance, () => {
@@ -5877,7 +5868,7 @@ class World1Level2Start extends GameScene {
 								gameState.character.mario.progress = 48;
 							} else {
 								gameState.character.luigi.progress = 48;
-							};
+							}
 							this.scene.start(gameState.currentScene);
 						}
 					})
@@ -5945,7 +5936,7 @@ class World1Level2 extends GameScene {
 		if (gameState.portalExit) {
 			gameState.portalExit = false;
 			this.portalExit('down', 162);
-		};
+		}
 	}
 }
 
@@ -6005,8 +5996,8 @@ class World1Level2End extends GameScene {
 				gameState.character.luigi.world = 1;
 				gameState.character.luigi.level = 3;
 				gameState.currentScene = 'World1Level3';
-			};
-		};
+			}
+		}
 	}
 }
 
@@ -6038,7 +6029,7 @@ class World1Level3 extends GameScene {
 		this.gameVariables(gameState.currentMusic.aboveGroundBGMHurryUp);
 		if (gameState.time === 0 && gameState.courseCompleted && !gameState.fanfare) {
 			this.castleFanfare(false, 2552, 208);
-		};
+		}
 		if (gameState.courseCompleted) {
 			if (gameState.character.mario.active) {
 				gameState.character.mario.world = 1;
@@ -6048,8 +6039,8 @@ class World1Level3 extends GameScene {
 				gameState.character.luigi.world = 1;
 				gameState.character.luigi.level = 4;
 				gameState.currentScene = 'World1Level4';
-			};
-		};
+			}
+		}
 	}
 }
 
@@ -6076,7 +6067,7 @@ class World1Level4 extends GameScene {
 		this.fireStick(1416, 40, 6);
 		this.addElevators(2224, 72, 2, 4500, 'left', true);
 		this.flagpoleScene(2264, 104);
-		let toadstool = this.add.sprite(2448, 176, 'npcs').setOrigin(0, 1);
+		//let toadstool = this.add.sprite(2448, 176, 'npcs').setOrigin(0, 1);
 		this.bowser(2200, 128);
 	}
 
@@ -6093,8 +6084,8 @@ class World1Level4 extends GameScene {
 				gameState.character.luigi.world = 2;
 				gameState.character.luigi.level = 1;
 				gameState.currentScene = 'World2Level1';
-			};
-		};
+			}
+		}
 	}
 }
 
@@ -6124,7 +6115,7 @@ class World2Level1 extends GameScene {
 		});
 		for (let i = 0; i < 48; i += 16) {
 			cloudPlatform.create(1528 + i, 161, 'sprites', 'Sprites-182').setFrictionX(1).setSize(16, 8).setOffset(0, 0);
-		};
+		}
 		this.physics.add.collider(gameState.player, cloudPlatform, () => {
 			cloudPlatform.setVelocityX(30);
 		}, null, this);
@@ -6140,10 +6131,10 @@ class World2Level1 extends GameScene {
 		if (gameState.portalExit) {
 			gameState.portalExit = false;
 			this.portalExit('down', 432);
-		};
+		}
 		if (gameState.time === 0 && gameState.courseCompleted && !gameState.fanfare) {
 			this.castleFanfare(true, 456, 208);
-		};
+		}
 		if (gameState.courseCompleted) {
 			if (gameState.character.mario.active) {
 				gameState.character.mario.world = 2;
@@ -6153,8 +6144,8 @@ class World2Level1 extends GameScene {
 				gameState.character.luigi.world = 2;
 				gameState.character.luigi.level = 2;
 				gameState.currentScene = 'World1Level2Start';
-			};
-		};
+			}
+		}
 		if (gameState.cloudLayer && gameState.player.y > config.height / 2) {
 			gameState.cloudLayer = false;
 			gameState.player.x = 2600;
@@ -6168,7 +6159,7 @@ class World2Level1 extends GameScene {
 					gameState.keyboard = true;
 				}
 			});
-		};
+		}
 	}
 }
 
@@ -6223,7 +6214,7 @@ class World2Level3 extends GameScene {
 		this.enemyBehavior();
 		if (gameState.time === 0 && gameState.courseCompleted && !gameState.fanfare) {
 			this.castleFanfare(false, 3736, 208);
-		};
+		}
 		if (gameState.courseCompleted) {
 			if (gameState.character.mario.active) {
 				gameState.character.mario.world = 2;
@@ -6233,8 +6224,8 @@ class World2Level3 extends GameScene {
 				gameState.character.luigi.world = 2;
 				gameState.character.luigi.level = 4;
 				gameState.currentScene = 'World2Level4';
-			};
-		};
+			}
+		}
 	}
 }
 
@@ -6275,7 +6266,7 @@ class World2Level4 extends GameScene {
 		});
 		this.addElevators(2224, 72, 2, 2250, 'left', true);
 		this.flagpoleScene(2264, 104);
-		let toadstool = this.add.sprite(2448, 176, 'npcs').setOrigin(0, 1);
+		//let toadstool = this.add.sprite(2448, 176, 'npcs').setOrigin(0, 1);
 		this.bowser(2200, 128);
 	}
 
@@ -6292,8 +6283,8 @@ class World2Level4 extends GameScene {
 				gameState.character.luigi.world = 3;
 				gameState.character.luigi.level = 1;
 				gameState.currentScene = 'World3Level1';
-			};
-		};
+			}
+		}
 	}
 }
 
@@ -6323,7 +6314,7 @@ class World3Level1 extends GameScene {
 		});
 		for (let i = 0; i < 48; i += 16) {
 			cloudPlatform.create(2288 + i, 161, 'sprites', 'Sprites-182').setFrictionX(1).setSize(16, 8).setOffset(0, 0);
-		};
+		}
 		this.physics.add.collider(gameState.player, cloudPlatform, () => {
 			cloudPlatform.setVelocityX(30);
 		}, null, this);
@@ -6338,10 +6329,10 @@ class World3Level1 extends GameScene {
 		if (gameState.portalExit) {
 			gameState.portalExit = false;
 			this.portalExit('down', 432);
-		};
+		}
 		if (gameState.time === 0 && gameState.courseCompleted && !gameState.fanfare) {
 			this.castleFanfare(true, 456, 208);
-		};
+		}
 		if (gameState.courseCompleted) {
 			if (gameState.character.mario.active) {
 				gameState.character.mario.world = 3;
@@ -6351,8 +6342,8 @@ class World3Level1 extends GameScene {
 				gameState.character.luigi.world = 3;
 				gameState.character.luigi.level = 2;
 				gameState.currentScene = 'World3Level2';
-			};
-		};
+			}
+		}
 		if (gameState.cloudLayer && gameState.player.y > config.height / 2) {
 			gameState.cloudLayer = false;
 			this.physics.world.bounds.x = 0
@@ -6369,7 +6360,7 @@ class World3Level1 extends GameScene {
 					gameState.keyboard = true;
 				}
 			});
-		};
+		}
 	}
 }
 
@@ -6432,8 +6423,8 @@ class World3Level2 extends GameScene {
 				gameState.character.luigi.world = 3;
 				gameState.character.luigi.level = 3;
 				gameState.currentScene = 'World3Level3';
-			};
-		};
+			}
+		}
 	}
 }
 
@@ -6467,7 +6458,7 @@ class World3Level3 extends GameScene {
 		this.gameVariables(gameState.currentMusic.aboveGroundBGMHurryUp);
 		if (gameState.time === 0 && gameState.courseCompleted && !gameState.fanfare) {
 			this.castleFanfare(false, 2536, 208);
-		};
+		}
 		if (gameState.courseCompleted) {
 			if (gameState.character.mario.active) {
 				gameState.character.mario.world = 3;
@@ -6477,7 +6468,7 @@ class World3Level3 extends GameScene {
 				gameState.character.luigi.world = 3;
 				gameState.character.luigi.level = 4;
 				gameState.currentScene = 'World3Level4';
-			};
-		};
+			}
+		}
 	}
 }

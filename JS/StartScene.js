@@ -29,10 +29,10 @@ class StartScene extends Phaser.Scene {
 			} else {
 				gameState.cursor.y = 148;
 				gameState.onePlayer = true;
-			};
+			}
 		});
 		if (Phaser.Input.Keyboard.JustDown(gameState.keys.Enter)) {
 			this.scene.start('LoadScene');
-		};
+		}
 	}
 }
